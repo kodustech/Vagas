@@ -14,7 +14,7 @@ ou tiver mais conhecimento (claro que na tecnologia que indicamos conta mais pon
 ## Especificação WEB
 Criar um WEBAPP feito em [vuejs](https://vuejs.org/) para listar os heróis da MARVEL. Para saber mais sobre essa API [clique aqui](https://medium.com/@renato.groffe/consumo-de-apis-em-net-core-utilizando-a-marvel-comics-api-ebe9cc858589)
 
-**API da marvel:** API https://deividfortuna.github.io/fipe/. 
+**API da marvel:** API https://developer.marvel.com/. 
 
 Serão avaliados aqui seu conhecimento em [REST](http://blog.caelum.com.br/rest-principios-e-boas-praticas/)
 
