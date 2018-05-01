@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <!--ICONS-->
+    <link rel="icon" href="https://marvel.com/i/images/favicon/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="https://marvel.com/i/images/favicon/favicon.ico" type="image/x-icon"/>
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/css/uikit.min.css"/>
+
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit-icons.min.js"></script>
+
+    <!--Customização-->
+    <link rel="stylesheet" href="./src/CustomStyle.css">
+
+    <title>Heróis Marvel</title>
+
+</head>
+
+
+<body>
+<div uk-height-viewport="expand: true">
+    <div id="app" class="uk-height-1-1 uk-background-secondary">
+
+        <!--MENU SUPERIOR-->
+        <nav class="uk-height-small uk-background-primary" uk-navbar>
+
+            <!--LOGO-->
+            <div class="uk-navbar-item uk-navbar-left uk-logo uk-padding-remove">
+                <!--TELAS GRANDES-->
+                <img src="./src/assets/logo-large.png" height="94" class="uk-visible@s"/>
+
+                <!--TELAS PEQUENAS-->
+                <div class="uk-hidden@s uk-position-center-left uk-padding-small">
+                    <img src="./src/assets/icon-76.png" class=" uk-box-shadow-large"/>
+                </div>
+
+            </div>
+
+            <!--BOTAO SAIR-->
+            <div v-if="detalhe" class="uk-navbar-item uk-navbar-right">
+                <button class="uk-close" type="button" @click="voltar" uk-icon="icon:close; ratio: 2"></button>
+            </div>
+        </nav>
+
+
+        <!--JANELA DE PESQUISA-->
+        <section v-if="procura" class="uk-padding-small uk-padding-remove-top">
+            <!--VERIFICAR SE TA PREENCHIDO-->
+            <transition name="fade">
+                <div v-if="aviso" uk-alert>
+                    <a class="uk-alert-warning uk-text-center">Você deve escrever algo para pesquisar!</a>
+                    <a class="uk-align-right" @click="aviso=false" uk-icon="icon: close; ratio: 0.8;"></a>
+                </div>
+            </transition>
+
+
+            <!--INPUT DE PESQUISA-->
+            <div class="uk-flex uk-flex-center uk-padding-small">
+
+                <input type="search" placeholder="Procure seu heroi" autofocus @keyup.enter="heroi?busca():aviso=true"
+                       class="uk-input uk-form-large uk-form-danger uk-width-expand" v-model="heroi">
+                <button @click="heroi?busca():aviso=true" class="uk-button uk-button-danger uk-button-large">GO!
+                </button>
+            </div>
+
+            <!--GRID DE RESULTADOS-->
+            <div class="uk-height-1-1  uk-padding-remove-top uk-flex-center " uk-grid>
+
+                <!--CARREGANDO-->
+                <div v-if="carregando" class="uk-width-1-1 uk-height-large uk-flex-center uk-flex-middle " uk-grid>
+                    <div uk-spinner="ratio: 5" class="uk-margin-bottom"></div>
+                </div>
+
+                <div v-else-if="!herois[0]" class="uk-width-1-1 uk-height-large uk-flex-center uk-flex-middle " uk-grid>
+                    <div>
+                        <p class="uk-h2 uk-padding-remove uk-margin-remove uk-text-break ">
+                            {{mensagem}}
+                        </p>
+                        <p class="uk-h4 uk-padding-remove uk-margin-remove uk-text-center">
+                            {{erro}}
+                        </p>
+                    </div>
+                </div>
+
+                <!--RESULTADOS-->
+                <div v-else class="uk-inline ">
+
+
+                    <div class="uk-grid-small uk-margin-top  uk-flex-center " uk-grid>
+
+                        <div v-for="item in herois">
+                            <transition appear name="slide-fade">
+                                <div @click="detalhes(item.id)" class="uk-inline-clip uk-transition-toggle "
+                                     tabindex="0">
+
+                                    <img v-bind:src="item.thumbnail.path+'.'+item.thumbnail.extension"
+                                         :alt="'imagem '+ item.name"
+                                         class=" uk-width-small uk-height-medium">
+                                    <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
+                                        <p class="uk-text-small uk-margin-remove">{{item.name}}</p>
+                                    </div>
+
+                                </div>
+                            </transition>
+                        </div>
+
+                        <!--PROXIMA PAGINA E ANTERIOR-->
+                        <div class="uk-position-center-left uk-overlay uk-padding-remove " v-show="temMenos ">
+                            <button uk-icon="icon:chevron-left; ratio:3" @click="buscarMenos"></button>
+                        </div>
+
+                        <div class="uk-position-center-right uk-overlay uk-padding-remove" v-show="temMais ">
+                            <button button uk-icon="icon:chevron-right; ratio:3" @click="buscarMais"></button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+        </section>
+
+
+        <!--JANELA DE DETALHES-->
+        <section v-else-if="detalhe" class="  uk-animation-slide-right-medium uk-transform-origin-right  ">
+            <!--CARREGANDO-->
+            <div v-if="carregando" class="uk-width-1-1 uk-height-large uk-flex-center uk-flex-middle " uk-grid>
+                <div uk-spinner="ratio: 5" class="uk-margin-bottom"></div>
+            </div>
+
+
+            <!--TELA DE DETALHES-->
+            <div v-else class="uk-height-1-1 uk-padding-small">
+
+                <div class="uk-flex uk-flex-column ">
+
+                    <div class="uk-width-1-1 uk-grid-collapse uk-flex-center" uk-grid>
+                        <!--FOTO DO PERSONAGEM-->
+                        <div class="">
+
+                            <img v-bind:src="dadosDetalhe.thumbnail.path +'.'+ dadosDetalhe.thumbnail.extension"
+                                 :alt="'imagem ' + dadosDetalhe.name"
+                                 class="uk-border-rounded uk-box-shadow-small uk-box-shadow-hover-large uk-width-large"></img>
+                        </div>
+
+                        <!--DESCRICAO DO PERSONAGEM-->
+                        <div class=" uk-flex uk-flex-column uk-width-expand@m uk-width-1-1 uk-padding-small uk-padding-remove-left">
+
+                            <h1 class=" uk-text-danger uk-heading-primary uk-text-right ">
+                                <strong>{{dadosDetalhe.name}}</strong></h1>
+
+                            <div class="uk-text-middle uk-margin-top">
+
+                                <div v-if="dadosDetalhe.description" class="uk-text-warning uk-padding-small">
+
+                                    {{dadosDetalhe.description}}
+
+                                </div>
+
+                                <div v-else class="uk-text-disable uk-text-center">
+                                    <h2 class="uk-h3 ">Não há descrição disponível para esse personagem</h2>
+                                </div>
+
+                            </div>
+
+                            <!--BOTÃO WIKI-->
+                            <div class="uk -animation-toggle">
+                                <a v-if="dadosDetalhe.urls[1].type == 'wiki'" :href="dadosDetalhe.urls[1].url"
+                                   target="_blank"
+                                   class="uk-button uk-button-danger uk-button-large uk-position-bottom-right-out  uk-animation-shake uk-position-relative">
+                                    VER WIKI</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!--LISTA DE COMICS-->
+                    <div v-if="dadosDetalhe.comics.available >0"
+                         class=" uk-padding-small uk-animation-slide-left-medium uk-transform-origin-left  ">
+
+
+                        <div class="uk-card-default uk-height-1-1 uk-padding-small uk-padding-left-remove uk-box-shadow-large  uk-flex uk-flex-column  "
+                             uk-grid>
+
+                            <h3 class="uk-padding-remove uk-text-danger uk-text-bold">QUADRINHOS:</h3>
+
+                            <!--CARREGANDO-->
+                            <div v-if="carregandoComics"
+                                 class="uk-width-1-1 uk-height-medium uk-flex-center uk-flex-middle uk-margin-bottom"
+                                 uk-grid>
+                                <div uk-spinner="ratio: 2" class=""></div>
+                            </div>
+
+                            <div v-else class="uk-padding-remove uk-margin-remove">
+
+                                <transition appear name="slide-fade">
+                                    <div class="uk-flex-middle uk-position-relative height-comic" uk-grid
+                                         uk-height-match="row: false" uk-slider>
+                                        <ul class="uk-slider-items uk-card uk-width-expand height-comic ">
+
+                                            <!--CAPA DO QUADRINHO-->
+                                            <li v-for="comic in comics.results">
+
+                                                <a :href="comic.urls[0].url" target="_blank"
+                                                   class="uk-animation-toggle">
+                                                    <img v-bind:src="comic.thumbnail.path+'.'+comic.thumbnail.extension"
+                                                         width="170px"
+                                                         class="uk-height-1-1 uk-animation-kenburns uk-animation-fast"/>
+                                                </a>
+                                            </li>
+
+                                            <!-- ULTIMO FILHO-->
+                                            <li v-if="comics.total>30" class="uk-transition-toggle uk-width-1-2 uk-width-1-4@s uk-width-1-6@m " tabindex="0">
+                                                <a :href="linkcomics" target="_blank">
+                                                    <div class="uk-icon uk-position-center"
+                                                         uk-icon="icon:plus; ratio: 4;"></div>
+                                                    <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary">
+                                                        <p class="uk-margin-remove  uk-h2 uk-text-middle uk-text-center">Ver
+                                                            mais <br>({{comics.total - 30}}) </p>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <!--NAVEGADOR DO SLIDER-->
+                                        <div class="  uk-hidden-hover uk-transition-toggle uk-inline-clip ">
+                                            <div class="uk-width-1-1 uk-padding-remove uk-card-primary uk-transition-slide-right uk-position-cover uk-overlay uk-overlay-primary">
+                                                <a class="uk-position-center-right uk-padding-small" uk-slidenav-next
+                                                   uk-slider-item="next"></a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </transition>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+    </div>
+
+    <footer class="uk-background-primary  uk-padding-small uk-padding-remove-vertical ">
+        <div class="uk-text uk-text-muted uk-text-middle uk-text-right@s uk-text-center uk-padding-small-top">Data
+            provided by Marvel. © 2018 MARVEL
+        </div>
+    </footer>
+
+</div>
+
+
+<script src="/dist/build.js"></script>
+<script src="./src/main.js"></script>
+</body>
+
+</html>
