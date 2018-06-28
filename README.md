@@ -1,4 +1,4 @@
-# Recrutamento ez.devs
+# Recrutamento frontend ez.devs
 
 Obrigado por chegar até aqui, antes de começar, tem algumas coisas importantes que você precisa saber:
 - Para começar, crie um fork deste repositório e trabalhe nele.
