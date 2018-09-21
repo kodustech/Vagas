@@ -19,6 +19,7 @@
 
 <script>
 import axios from 'axios'
+import NProgress from 'nprogress'
 
 export default {
   data () {
@@ -39,9 +40,11 @@ export default {
 
   // Fetches posts when the component is created.
   created () {
+    NProgress.start()
     axios.get(`https://gateway.marvel.com/v1/public/characters?nameStartsWith=` + this.letra + `&limit=99&ts=123456&apikey=556a9cf8256d3a650cad325130950097&hash=b0c28bc682db6481c66de83ecb563b09`)
       .then(response => {
       // JSON responses are automatically parsed.
+        NProgress.done()
         this.heros = response.data.data.results
         console.log(this.heros)
       })

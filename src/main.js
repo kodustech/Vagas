@@ -6,6 +6,7 @@ import VueRouter from 'vue-router'
 import MarvelList from '@/components/MarvelList'
 import MarvelChar from '@/components/MarvelChar'
 import MarvelLetter from '@/components/MarvelLetter'
+import NProgress from 'nprogress'
 
 Vue.config.productionTip = false
 Vue.use(VueRouter)
@@ -31,6 +32,17 @@ const routes = [
 const router = new VueRouter({
   routes,
   mode: 'history'
+})
+
+router.beforeResolve((to, from, next) => {
+  if (to.name) {
+    NProgress.start()
+  }
+  next()
+})
+
+router.afterEach((to, from) => {
+  NProgress.done()
 })
 
 /* eslint-disable no-new */
