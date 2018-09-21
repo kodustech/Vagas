@@ -43,7 +43,7 @@ export default {
 
   // Fetches posts when the component is created.
   created () {
-    axios.get(`http://gateway.marvel.com/v1/public/characters/` + this.heroID + `?ts=123456&apikey=556a9cf8256d3a650cad325130950097&hash=b0c28bc682db6481c66de83ecb563b09`)
+    axios.get(`https://gateway.marvel.com/v1/public/characters/` + this.heroID + `?ts=123456&apikey=556a9cf8256d3a650cad325130950097&hash=b0c28bc682db6481c66de83ecb563b09`)
       .then(response => {
       // JSON responses are automatically parsed.
         this.hero = response.data.data.results
