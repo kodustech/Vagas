@@ -31,6 +31,25 @@ Ser apaixonado por desenvolvimento e aprendizado, você ira participar de uma va
 - Remoto (part-time), depois de 2 meses de empresa.
 
 ### Aqui você vai encontrar nosso desafio para vaga de [Estágio](./internship/challenge.md)
+
+# Desenvolvedor FullStack
+
+## Descrição
+Ser apaixonado por desenvolvimento e aprendizado, você ira participar de uma variedade de projetos para aprender o máximo possível, sempre com um mentor que irá te auxiliar no seu crescimento, mirando entregas de projetos com alta qualidade, aqui você já passa pelo nosso processo de code review, onde alem do mentor terá dicas de outras pessoas envolvidas no projeto.
+
+## Desejável
+- [ ] Conhecimento básico de programação
+- [ ] Conhecimento básico de javascript
+- [ ] Conhecimento básico de git
+- [ ] Paixão por aprender coisas novas e resolver problemas complexos
+- [ ] Proatividade
+
+## Benefícios
+- Curso de inglês na empresa
+- Horário flexível
+- Remoto (part-time), depois de 2 meses de empresa.
+
+### Aqui você vai encontrar nosso desafio para vaga de [Estágio](./internship/challenge.md)
 <!-- # Recrutamento fullstack ez.devs
 
 Obrigado por chegar até aqui, antes de começar, tem algumas coisas importantes que você precisa saber:
