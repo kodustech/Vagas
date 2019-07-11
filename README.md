@@ -6,6 +6,12 @@ A ez.devs é uma empresa jovem, onde acreditamos que tecnologia impulsiona os n�
  se você se encaixa nesses três pilares mande um e-mail para nós que precisamos de você no time!
 
  conheça nossa cultura e o que as pessoas com quem trabalhamos pensam sobre a [ez.devs](https://ezdevs.com.br/vagas/)
+
+# Empregos
+Aqui temos 2 tipos de trabalho: **Estágiario**, **Desenvolvedor FullStack Web**, **Desenvolvedor FullStack Mobile**.
+
+# Estágio
+
 ## Descrição
 Ser apaixonado por desenvolvimento e aprendizado, você ira participar de uma variedade de projetos para aprender o máximo possível, sempre com um mentor que irá te auxiliar no seu crescimento, mirando entregas de projetos com alta qualidade, aqui você já passa pelo nosso processo de code review, onde alem do mentor terá dicas de outras pessoas envolvidas no projeto.
 
