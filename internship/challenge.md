@@ -8,7 +8,7 @@ fique a vontade em perguntar qualquer coisa relacionada ao projeto ou tecnologia
 ou tiver mais conhecimento (claro que na tecnologia que indicamos conta mais pontos 😉)
 - Se você tiver alguma melhoria ou sugestão para fazer no app, faça! Nós adoramos isso, sinta-se a vontade. 😍
 - Não estamos avaliando layout, mas adoramos coisas bonitas. Se precisar de referência [clique aqui](http://www.uplabs.com/)
-- Ao finalizar o teste envie um e-mail para gabriel.malinosqui@ezdevs.com.br
+- Ao finalizar o teste envie um e-mail para vagas@ezdevs.tech
 
 # Algumas das tecnologias que utilizamos
 JavaScript, Vue.js, Angular, React, React Native, Ionic, Node.js, .Net Core, MongoDB, MySql.
@@ -38,4 +38,4 @@ caso tenha outras informações que você considere interessante sinta-se a vont
 - [ ] Configurar prettier
 - [ ] Usar async await
 - [ ] Boas práticas de acordo com o que foi feito o teste (linguagem, framework).
-- [ ] Publique a API e o WEBAPP, nós indicamos o heroku (Você vai encontrar vários tutorias no google sobre isso 😉).
+- [ ] Publique a API e o WEBAPP, nós indicamos o heroku (Você vai encontrar vários tutoriais no google sobre isso 😉).
