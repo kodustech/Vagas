@@ -17,17 +17,20 @@ JavaScript, Vue.js, Angular, React, React Native, Ionic, Node.js, .Net Core, Mon
 
 Nesse desafio queremos que você crie um projeto, onde deva escolher e consumir uma API pública https://github.com/toddmotto/public-apis.
 
+O projeto deve ter um README.md com todas as instruções sobre como executar e testar o projeto e os serviços disponibilizados.
+
 Abaixo disponibilizamos um exemplo de layout, onde temos uma tela de listagem, com um campo para busca e cards composto por foto e título, e caso não tenha imagem retornar uma imagem padrão.
 
+
 ### Listagem 
-![lista - mockup](https://raw.githubusercontent.com/ezDevs/recrutamento/master/Lista.png)
+![lista - mockup](https://raw.githubusercontent.com/ezDevs/recrutamento/master/images/Lista.png)
 
 Aqui temos a tela de detalhes que ao clicar no card(tela de listagem), deve retornar a foto, descrição e título.
 
 caso tenha outras informações que você considere interessante sinta-se a vontade para melhorar esse layout.
 
 ### Detalhes
-![Detalhes - mockup](https://raw.githubusercontent.com/ezDevs/recrutamento/master/Detalhes.png)
+![Detalhes - mockup](https://raw.githubusercontent.com/ezDevs/recrutamento/master/images/Detalhes.png)
 
 # Extras
 - [ ] Separar projeto em web e api
