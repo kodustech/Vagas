@@ -3,7 +3,7 @@ A ez.devs é uma empresa jovem, onde acreditamos que tecnologia impulsiona os n�
 
 # Cultura
  Um time, uma cultura, uma missão, nós acreditamos que a cultura cria organizações que movem o mundo.
- se você se encaixa nesses três pilares mande um e-mail para nós que precisamos de você no time!
+ Se você se encaixa nesses três pilares mande um e-mail para nós que precisamos de você no time!
 
  conheça nossa cultura e o que as pessoas com quem trabalhamos pensam sobre a [ez.devs](https://ezdevs.com.br/vagas/)
 
@@ -16,7 +16,7 @@ Aqui temos 3 tipos de trabalho: **Estágiario**, **Desenvolvedor Full Stack Web*
 # Estágio
 
 ## Descrição
-Ser apaixonado por desenvolvimento e aprendizado, você ira participar de uma variedade de projetos para aprender o máximo possível, sempre com um mentor que irá te auxiliar no seu crescimento, mirando entregas de projetos com alta qualidade, aqui você já passa pelo nosso processo de code review, onde alem do mentor terá dicas de outras pessoas envolvidas no projeto.
+Ser apaixonado por desenvolvimento e aprendizado. Aqui na ez você ira passar por vários projetos incríveis, com grandes desafios, sempre com um mentor que irá te auxiliar no seu crescimento, mirando entregas de projetos com alta qualidade, aqui você já passa pelo nosso processo de code review, onde alem do mentor terá dicas de outras pessoas envolvidas no projeto.
 
 ## Desejável
 - [ ] Conhecimento básico de programação
@@ -34,7 +34,7 @@ Ser apaixonado por desenvolvimento e aprendizado, você ira participar de uma va
 # Desenvolvedor Full Stack Web
 
 ## Descrição
-Ser apaixonado por desenvolvimento e muito aprendizado, acreditamos que isso nunca acaba na vida de um desenvolvedor, você ira participar de projetos incríveis, com grandes desafios,
+Ser apaixonado por desenvolvimento e muito aprendizado, acreditamos que isso nunca acaba na vida de um desenvolvedor. Aqui na ez você ira participar de projetos incríveis, com grandes desafios,
 aqui você será responsável por tudo que envolve um projeto(Back-end, Front-end), aqui temos um time de staff com DevOps, Teste, Agile Coach, que ira auxiliar você nessas práticas no dia a dia do projeto.
 
 ## Desejável
@@ -48,7 +48,7 @@ aqui você será responsável por tudo que envolve um projeto(Back-end, Front-en
 
 ## Diferenciais
 - [ ] Conceitos e práticas de DevOps (CI / CD)
-- [ ] Conceitos e práticas Cloud (AWS / DO)
+- [ ] Conceitos e práticas Cloud (AWS / DO / Google Cloud)
 - [ ] Conhecimento em Docker
 - [ ] Clean Code, Testes(TDD, Unit)
 - [ ] English
@@ -58,3 +58,33 @@ aqui você será responsável por tudo que envolve um projeto(Back-end, Front-en
 - Horário flexível
 
 ### Aqui você vai encontrar nosso desafio para vaga de [Full Stack Web](./fullstack-web/challenge.md)
+
+# Desenvolvedor Full Stack Mobile
+
+## Descrição
+Ser apaixonado por desenvolvimento e muito aprendizado, acreditamos que isso nunca acaba na vida de um desenvolvedor. Aqui na ez você ira participar de projetos incríveis, com grandes desafios,
+aqui você será responsável por tudo que envolve um projeto(Back-end, Front-end), aqui temos um time de staff com DevOps, Teste, Agile Coach, que ira auxiliar você nessas práticas no dia a dia do projeto.
+
+## Desejável
+- [ ] Conhecimento em desenvolvimento nativo Android/IOS
+- [ ] Conhecimento em Ionic/React Native
+- [ ] Conhecimento em HTML, CSS e JavaScript
+- [ ] Conhecimento em GIT
+- [ ] Conhecimento em REST
+- [ ] Conhecimento em metodologias ágeis
+- [ ] Conhecimento em modelagem de banco de dados
+- [ ] Paixão por aprender coisas novas e resolver problemas complexos
+- [ ] Proatividade
+
+## Diferenciais
+- [ ] Conceitos e práticas de DevOps (CI / CD)
+- [ ] Conceitos e práticas Cloud (AWS / DO / Google Cloud)
+- [ ] Conhecimento em Docker
+- [ ] Clean Code, Testes(TDD, Unit)
+- [ ] English
+
+## Benefícios
+- Curso de inglês na empresa
+- Horário flexível
+
+### Aqui você vai encontrar nosso desafio para vaga de [Full Stack Web](./fullstack-mobile/challenge.md)
