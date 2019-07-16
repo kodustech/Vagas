@@ -36,7 +36,7 @@ Sempre com um mentor que irá te auxiliar no seu crescimento, mirando entregas d
 - Curso de inglês na empresa
 - Horário flexível
 
-### Aqui você vai encontrar nosso desafio para vaga de [Estágio](./internship/challenge.md)
+### Se interessou pela vaga de estágio? Dá uma conferida no nosso teste! [Estágio](./internship/challenge.md)
 
 # Desenvolvedor Full Stack Web
 
@@ -67,7 +67,7 @@ Você será responsável por tudo que envolve um projeto (Back-end, Front-end), 
 - Curso de inglês na empresa
 - Horário flexível
 
-### Aqui você vai encontrar nosso desafio para vaga de [Full Stack Web](./fullstack-web/challenge.md)
+### Se interessou por essa vaga? Dá uma conferida no nosso teste! [Full Stack Web](./fullstack-web/challenge.md)
 
 # Desenvolvedor Full Stack Mobile
 
@@ -98,4 +98,4 @@ Você será responsável por tudo que envolve um projeto (Back-end, Front-end), 
 - Curso de inglês na empresa
 - Horário flexível
 
-### Aqui você vai encontrar nosso desafio para vaga de [Full Stack Mobile](./fullstack-mobile/challenge.md)
+### Se interessou por essa vaga? Dá uma conferida no nosso teste! [Full Stack Mobile](./fullstack-mobile/challenge.md)
