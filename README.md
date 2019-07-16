@@ -1,16 +1,21 @@
 # Quem somos
-A ez.devs é uma empresa jovem, onde acreditamos que tecnologia impulsiona os négocios
+A ez.devs é uma empresa de tecnologia que acreditam que pessoas são o grande diferencial competitivos das empresas. 
+Nós somos apaixonados por Javascript e ajudamos clientes (desde startups até grandes empresas) a atingirem resultados extraordinários com seus produtos digitais.
 
 # Cultura
  Um time, uma cultura, uma missão, nós acreditamos que a cultura cria organizações que movem o mundo.
- Se você se encaixa nesses três pilares mande um e-mail para nós que precisamos de você no time!
+ Aqui nós fazemos questão de ter no time, pessoas quem amam o que fazem.
 
- conheça nossa cultura e o que as pessoas com quem trabalhamos pensam sobre a [ez.devs](https://ezdevs.com.br/vagas/)
+ Conheça nossa cultura e o que as pessoas com quem trabalhamos pensam sobre a [ez.devs](https://ezdevs.com.br/vagas/)
 
 ## Observação
-Mesmo não tendo vagas abertas, sinta-se a vontade para realizar os testes, iremos armazenar em nosso banco de talentos ou caso queira testar seus conhecimentos, em qualquer um dos casos iremos retornar com feedback o mais rápido possível, gostamos muito de colaborar com as pessoas, quando enviarem os teste é interessante você colocar uma descrição do que tentou fazer e no que teve dificuldades, e caso queira incrementar algo caso sinta-se a vontade, só nos explique o motivo, Lembrando que a sessão extra dentro de cada desafio não é obrigátorio, são apenas idéias de ferramentas e recursos que você pode implementar ou não. Mas é claro que se implementar terá pontos extras! :).
+Mesmo não tendo vagas abertas, sinta-se a vontade para realizar os testes, iremos armazenar em nosso banco de talentos, sempre tentamos retornar com feedback o mais rápido possível, gostamos muito de colaborar com o crescimento das pessoas.
 
-# Empregos
+Quando enviar o teste é interessante você colocar uma descrição do que tentou fazer e no que teve dificuldades, e caso queira adicionar algo caso sinta-se a vontade, só nos explique o motivo.
+
+**Lembrando que a sessão extra dentro de cada desafio não é obrigátorio**, são apenas idéias de ferramentas e recursos que você pode implementar ou não. Mas é claro que se implementar terá pontos extras! :).
+
+# Vagas
 Aqui temos 3 tipos de trabalho: **Estágiario**, **Desenvolvedor Full Stack Web**, **Desenvolvedor Full Stack Mobile**.
 
 # Estágio
