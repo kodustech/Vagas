@@ -24,13 +24,16 @@ A API deve contér um CRUD (create, read, update, delete) de Categoria e Posts, 
 além disso queremos uma listagem de post, podendo ser filtrada por categoria e data/hora.
 
 # Começando o desafio Front-end
-Nesse desafio queremos que você crie um projet web, similar a um blog, onde teremos cadastro de post e categorias.
+Nesse desafio queremos que você crie um projeto web, similar a um blog, onde teremos cadastro de post e categorias.
 
 Queremos que você demonstre seus conhecimentos front-end, precisamos de uma tela para (create/read/update/delete), de post e categoria, onde uma categoria pertence a um post,
 além disso queremos que na dashboard seja listado os posts, e tenhamos um filtro de categoria, data/hora.
 
-### Nova feature
-O cliente entrou em contato na última hora e pediu uma nova feature, ele quer que adicione uma forma de:
+Segue exemplo de layout pro teste, lembrando que não precisa seguir a risca é somente para dar uma idéia.
+![lista - mockup](https://raw.githubusercontent.com/ezDevs/recrutamento/master/images/Lista.png)
+
+### Novas features
+O cliente entrou em contato na última hora e pediu novas features, ele quer que adicione uma forma de:
 - Avaliar post
 - Adicionar visualização de post()
 - Adicionar contador de visitas de post (Caso seja implementado essas features, queremos que o card da dashboard, mostre o número de visitas do post).
