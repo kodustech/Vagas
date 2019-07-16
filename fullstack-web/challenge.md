@@ -26,7 +26,7 @@ além disso queremos uma listagem de post, podendo ser filtrada por categoria e 
 # Começando o desafio Front-end
 Nesse desafio queremos que você crie um projeto web, similar a um blog, onde teremos cadastro de post e categorias.
 
-Queremos que você demonstre seus conhecimentos front-end, precisamos de uma tela para (create/read/update/delete), de post e categoria, onde uma categoria pertence a um post,
+Queremos que você demonstre seus conhecimentos front-end, precisamos de uma tela para (create/read/update/delete), de post e categoria,
 além disso queremos que na dashboard seja listado os posts, e tenhamos um filtro de categoria, data/hora.
 
 Segue exemplo de layout pro teste, lembrando que não precisa seguir a risca é somente para dar uma idéia.
