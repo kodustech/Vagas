@@ -18,36 +18,36 @@ Quando enviar o teste é interessante você colocar uma descrição do que tento
 # Vagas
 Aqui temos 3 tipos de trabalho: **Estágiario**, **Desenvolvedor Full Stack Web**, **Desenvolvedor Full Stack Mobile**.
 
-# Estágio
+## Estágio
 
-## Descrição
+### Descrição
 Ser apaixonado por desenvolvimento e aprendizado. Aqui na ez você ira passar por vários projetos incríveis e com grandes desafios. 
 
 Sempre com um mentor que irá te auxiliar no seu crescimento, mirando entregas de projetos com alta qualidade, nesse momento você já passa pelo nosso processo de code review, onde alem do mentor existirão dicas de outras pessoas desenvolvedoras da empresa.
 
-## Desejável
+### Desejável
 - [ ] Conhecimento básico de programação
 - [ ] Conhecimento básico de javascript
 - [ ] Conhecimento básico de git
 - [ ] Paixão por aprender coisas novas e resolver problemas complexos
 - [ ] Proatividade
 
-## Benefícios
+### Benefícios
 - Curso de inglês na empresa
 - Horário flexível
 
-### Se interessou pela vaga de estágio? Dá uma conferida no nosso teste! [Estágio](./internship/challenge.md)
+#### Se interessou pela vaga de estágio? Dá uma conferida no nosso teste! [Estágio](./internship/challenge.md)
 
-# Desenvolvedor Full Stack Web
+## Desenvolvedor Full Stack Web
 
-## Descrição
+### Descrição
 Ser apaixonado por desenvolvimento e muito aprendizado (acreditamos que isso nunca acaba na vida de um desenvolvedor).]
 Aqui na ez você ira participar de projetos incríveis e com grandes desafios.
 
 
 Você será responsável por tudo que envolve um projeto (Back-end, Front-end), na empresa temos um time de staff com DevOps, Teste, Agile Coach, que irá te auxiliar nessas práticas no dia a dia do projeto.
 
-## Desejável
+### Desejável
 - [ ] Conhecimento em HTML, CSS e JavaScript
 - [ ] Conhecimento em GIT
 - [ ] Conhecimento em REST
@@ -56,27 +56,27 @@ Você será responsável por tudo que envolve um projeto (Back-end, Front-end), 
 - [ ] Paixão por aprender coisas novas e resolver problemas complexos
 - [ ] Proatividade
 
-## Diferenciais
+### Diferenciais
 - [ ] Conceitos e práticas de DevOps (CI / CD)
 - [ ] Conceitos e práticas Cloud (AWS / DO / Google Cloud)
 - [ ] Conhecimento em Docker
 - [ ] Clean Code, Testes(TDD, Unit)
 - [ ] English
 
-## Benefícios
+### Benefícios
 - Curso de inglês na empresa
 - Horário flexível
 
-### Se interessou por essa vaga? Dá uma conferida no nosso teste! [Full Stack Web](./fullstack-web/challenge.md)
+#### Se interessou por essa vaga? Dá uma conferida no nosso teste! [Full Stack Web](./fullstack-web/challenge.md)
 
-# Desenvolvedor Full Stack Mobile
+## Desenvolvedor Full Stack Mobile
 
-## Descrição
+### Descrição
 Ser apaixonado por desenvolvimento e muito aprendizado, acreditamos que isso nunca acaba na vida de um desenvolvedor. Aqui na ez você ira participar de projetos incríveis, com grandes desafios.
 
 Você será responsável por tudo que envolve um projeto (Back-end, Front-end), aqui temos um time de staff com DevOps, Teste, Agile Coach, que ira auxiliar você nessas práticas no dia a dia do projeto.
 
-## Desejável
+### Desejável
 - [ ] Conhecimento em desenvolvimento nativo Android/IOS
 - [ ] Conhecimento em Ionic/React Native/Flutter
 - [ ] Conhecimento em HTML, CSS e JavaScript
@@ -87,15 +87,15 @@ Você será responsável por tudo que envolve um projeto (Back-end, Front-end), 
 - [ ] Paixão por aprender coisas novas e resolver problemas complexos
 - [ ] Proatividade
 
-## Diferenciais
+### Diferenciais
 - [ ] Conceitos e práticas de DevOps (CI / CD)
 - [ ] Conceitos e práticas Cloud (AWS / DO / Google Cloud)
 - [ ] Conhecimento em Docker
 - [ ] Clean Code, Testes(TDD, Unit)
 - [ ] English
 
-## Benefícios
+### Benefícios
 - Curso de inglês na empresa
 - Horário flexível
 
-### Se interessou por essa vaga? Dá uma conferida no nosso teste! [Full Stack Mobile](./fullstack-mobile/challenge.md)
+#### Se interessou por essa vaga? Dá uma conferida no nosso teste! [Full Stack Mobile](./fullstack-mobile/challenge.md)
