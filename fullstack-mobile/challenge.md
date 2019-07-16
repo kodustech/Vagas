@@ -24,9 +24,9 @@ A API deve contér um CRUD (create, read, update, delete) de Categoria e Posts, 
 além disso queremos uma listagem de post, podendo ser filtrada por categoria e data/hora.
 
 # Começando o desafio Front-end
-Nesse desafio queremos que você crie um projeto web, similar a um blog, onde teremos cadastro de post e categorias.
+Nesse desafio queremos que você crie um projeto APP Mobile, similar a um blog, onde teremos cadastro de post e categorias.
 
-Queremos que você demonstre seus conhecimentos front-end, precisamos de uma tela para (create/read/update/delete), de post e categoria,
+Queremos que você demonstre seus conhecimentos Mobile, precisamos de uma tela para (create/read/update/delete), de post e categoria,
 além disso queremos que na dashboard seja listado os posts, e tenhamos um filtro de categoria, data/hora.
 
 Segue exemplo de layout pro teste, lembrando que não precisa seguir a risca é somente para dar uma idéia.
@@ -40,7 +40,7 @@ O cliente entrou em contato na última hora e pediu novas features, ele quer que
 - Adicionar imagens
 - Adicionar comentários
 
-# Extras
+# Extra
 - [ ] Configurar .env
 - [ ] Adicionar autenticação(JWT)
 - [ ] Adicionar páginação(post, categoria)
