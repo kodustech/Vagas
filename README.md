@@ -13,7 +13,7 @@ Mesmo não tendo vagas abertas, sinta-se a vontade para realizar os testes, irem
 
 Quando enviar o teste é interessante você colocar uma descrição do que tentou fazer e no que teve dificuldades, e caso queira adicionar algo caso sinta-se a vontade, só nos explique o motivo.
 
-**Lembrando que a sessão extra dentro de cada desafio não é obrigátorio**, são apenas idéias de ferramentas e recursos que você pode implementar ou não. Mas é claro que se implementar terá pontos extras! :).
+**Lembrando que a sessão extra dentro de cada desafio não é obrigátorio**, são apenas idéias de ferramentas e recursos que você pode implementar ou não. Mas é claro que se implementar esses extras, avaliaremos com carinho! 😀
 
 # Vagas
 Aqui temos 3 tipos de trabalho: **Estágiario**, **Desenvolvedor Full Stack Web**, **Desenvolvedor Full Stack Mobile**.
@@ -21,7 +21,9 @@ Aqui temos 3 tipos de trabalho: **Estágiario**, **Desenvolvedor Full Stack Web*
 # Estágio
 
 ## Descrição
-Ser apaixonado por desenvolvimento e aprendizado. Aqui na ez você ira passar por vários projetos incríveis, com grandes desafios, sempre com um mentor que irá te auxiliar no seu crescimento, mirando entregas de projetos com alta qualidade, aqui você já passa pelo nosso processo de code review, onde alem do mentor terá dicas de outras pessoas envolvidas no projeto.
+Ser apaixonado por desenvolvimento e aprendizado. Aqui na ez você ira passar por vários projetos incríveis e com grandes desafios. 
+
+Sempre com um mentor que irá te auxiliar no seu crescimento, mirando entregas de projetos com alta qualidade, nesse momento você já passa pelo nosso processo de code review, onde alem do mentor existirão dicas de outras pessoas desenvolvedoras da empresa.
 
 ## Desejável
 - [ ] Conhecimento básico de programação
@@ -39,8 +41,11 @@ Ser apaixonado por desenvolvimento e aprendizado. Aqui na ez você ira passar po
 # Desenvolvedor Full Stack Web
 
 ## Descrição
-Ser apaixonado por desenvolvimento e muito aprendizado, acreditamos que isso nunca acaba na vida de um desenvolvedor. Aqui na ez você ira participar de projetos incríveis, com grandes desafios,
-aqui você será responsável por tudo que envolve um projeto(Back-end, Front-end), aqui temos um time de staff com DevOps, Teste, Agile Coach, que ira auxiliar você nessas práticas no dia a dia do projeto.
+Ser apaixonado por desenvolvimento e muito aprendizado (acreditamos que isso nunca acaba na vida de um desenvolvedor).]
+Aqui na ez você ira participar de projetos incríveis e com grandes desafios.
+
+
+Você será responsável por tudo que envolve um projeto (Back-end, Front-end), na empresa temos um time de staff com DevOps, Teste, Agile Coach, que irá te auxiliar nessas práticas no dia a dia do projeto.
 
 ## Desejável
 - [ ] Conhecimento em HTML, CSS e JavaScript
@@ -67,12 +72,13 @@ aqui você será responsável por tudo que envolve um projeto(Back-end, Front-en
 # Desenvolvedor Full Stack Mobile
 
 ## Descrição
-Ser apaixonado por desenvolvimento e muito aprendizado, acreditamos que isso nunca acaba na vida de um desenvolvedor. Aqui na ez você ira participar de projetos incríveis, com grandes desafios,
-aqui você será responsável por tudo que envolve um projeto(Back-end, Front-end), aqui temos um time de staff com DevOps, Teste, Agile Coach, que ira auxiliar você nessas práticas no dia a dia do projeto.
+Ser apaixonado por desenvolvimento e muito aprendizado, acreditamos que isso nunca acaba na vida de um desenvolvedor. Aqui na ez você ira participar de projetos incríveis, com grandes desafios.
+
+Você será responsável por tudo que envolve um projeto (Back-end, Front-end), aqui temos um time de staff com DevOps, Teste, Agile Coach, que ira auxiliar você nessas práticas no dia a dia do projeto.
 
 ## Desejável
 - [ ] Conhecimento em desenvolvimento nativo Android/IOS
-- [ ] Conhecimento em Ionic/React Native
+- [ ] Conhecimento em Ionic/React Native/Flutter
 - [ ] Conhecimento em HTML, CSS e JavaScript
 - [ ] Conhecimento em GIT
 - [ ] Conhecimento em REST
