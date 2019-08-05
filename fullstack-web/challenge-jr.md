@@ -29,14 +29,16 @@ Nesse desafio queremos que você crie um projeto de API, similar a um blog, onde
 
 Deixamos a quantidade de inputs necessários a seu cargo.
 
-A API deve contér um CRUD (create, read, update, delete) de Categoria e Posts, Ao cadastrar um post, precisa vincular a categoria do post, os dados deveram ser persistido em um banco de dados de sua escolha,
-além disso queremos uma listagem de post, podendo ser filtrada por categoria e data/hora.
+A API deve conter um CRUD (create, read, update, delete) de Categoria e Posts.
+
+- Ao cadastrar um post, precisa vincular a categoria do post;
+- Os dados deverão ser persistidos em um banco de dados de sua escolha;
+- Queremos uma listagem de post, podendo ser filtrada por categoria e data/hora.
 
 # Começando o desafio Front-end
 Nesse desafio queremos que você crie um projeto web, similar a um blog, onde teremos cadastro de post e categorias.
 
-Queremos que você demonstre seus conhecimentos front-end, precisamos de uma tela para (create/read/update/delete), de post e categoria,
-além disso queremos que na dashboard seja listado os posts em forma de cards com título e um badge com a categoria, e tenhamos um filtro de categoria, data/hora.
+Queremos que você demonstre seus conhecimentos front-end, para isso precisamos de uma tela para (create/read/update/delete), de post e categoria, além disso queremos que na dashboard seja listado os posts, e tenhamos um filtro de categoria, data/hora.
 
 Segue exemplo de layout pro teste, lembrando que não precisa seguir a risca é somente para dar uma idéia.
 ![lista - mockup](https://raw.githubusercontent.com/ezDevs/recrutamento/master/images/Lista.png)
