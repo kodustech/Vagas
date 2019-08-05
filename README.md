@@ -42,8 +42,8 @@ Você será responsável por tudo que envolve um projeto (Back-end, Front-end), 
 ### Aqui você vai encontrar nossos desafios.
 [Full Stack Web - Júnior](./fullstack-web/challenge-jr.md)
 
-[Full Stack Web - PL/SR](./fullstack-web/challenge-jr-sr.md)
+[Full Stack Web - Pleno/Senior](./fullstack-web/challenge-pl-sr.md)
 
 [Full Stack Mobile - Júnior](./fullstack-mobile/challenge-jr.md)
 
-[Full Stack Mobile - PL/SR](./fullstack-mobile/challenge-pl-sr.md)
+[Full Stack Mobile - Pleno/Senior](./fullstack-mobile/challenge-pl-sr.md)
