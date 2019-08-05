@@ -41,3 +41,16 @@ Nesse desafio queremos que você melhore projeto mobile, utilizando conceitos de
 - [ ] Automatizar deploy API (CI)
 - [ ] Boas práticas de acordo com o que foi feito o teste (linguagem, framework).
 - [ ] Publique a API, nós indicamos o heroku (Você vai encontrar vários tutoriais no google sobre isso 😉).
+
+# O que será avaliado?
+ - Manutenibilidade: O código é legível e de fácil manutenção?
+ - Lógica do código
+ - Uso do Git
+ - Design Patterns
+ - SOLID
+ - Clean Code
+ - Estrutura do Código
+ - Domínio da Linguagem
+ - Desenho: Como foram separadas as responsabilidades? Quais técnicas foram utilizadas?
+ - Qualidade: Tem testes? Quão difícil é recriar os testes caso seja necessário alterar o comportamento da aplicação?
+ - Desempenho: Escreveu um código com performance adequada? Não precisa ser perfeito, mas entende como seria a melhor solução?

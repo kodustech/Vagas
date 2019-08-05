@@ -45,5 +45,13 @@ Segue exemplo de layout pro teste, lembrando que não precisa seguir a risca é 
 
 # Extras
 - [ ] Utilizar o mínimo possível de framework, bibliotecas.
-- [ ] Boas práticas de acordo com o que foi feito o teste (linguagem, framework).
 - [ ] Publique a API e o WEBAPP, nós indicamos o heroku (Você vai encontrar vários tutoriais no google sobre isso 😉).
+
+# O que será avaliado?
+ - Manutenibilidade: O código é legível e de fácil manutenção?
+ - Lógica do código
+ - Modelagem de Dados
+ - Estrutura do Código
+ - Uso do Git
+ - Boas práticas de desenvolvimento
+ - Uso de componentização
