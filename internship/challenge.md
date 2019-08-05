@@ -1,17 +1,21 @@
+## Desejável
+- [ ] Conhecimento básico de programação
+- [ ] Conhecimento básico de javascript
+- [ ] Conhecimento básico de git
+- [ ] Paixão por aprender coisas novas e resolver problemas complexos
+- [ ] Proatividade
+
 # Desafio
 
 Obrigado por chegar até aqui, antes de começar, tem algumas coisas importantes que você precisa saber:
 - Para começar, crie um fork deste repositório e trabalhe nele.
 - O que está sendo avaliado aqui é mais sua capacidade de pesquisar e resolver problemas, 
 fique a vontade em perguntar qualquer coisa relacionada ao projeto ou tecnologia para nós.
-- As tecnologias são apenas sugestões, caso você não saiba nenhuma delas, faça na linguagem que preferir 
-ou tiver mais conhecimento (claro que na tecnologia que indicamos conta mais pontos 😉)
 - Se você tiver alguma melhoria ou sugestão para fazer no app, faça! Nós adoramos isso, sinta-se a vontade. 😍
 - Não estamos avaliando layout, mas adoramos coisas bonitas. Se precisar de referência [clique aqui](http://www.uplabs.com/)
 - Ao finalizar o teste envie um e-mail para vagas@ezdevs.tech
 
-# Algumas das tecnologias que utilizamos
-JavaScript, Vue.js, Angular, React, React Native, Ionic, Node.js, .Net Core, MongoDB, MySql.
+#Prazo 1 semana
 
 # Começando o desafio
 
@@ -34,8 +38,5 @@ caso tenha outras informações que você considere interessante sinta-se a vont
 
 # Extras
 - [ ] Separar projeto em web e api
-- [ ] Configurar eslint
-- [ ] Configurar prettier
-- [ ] Usar async await
 - [ ] Boas práticas de acordo com o que foi feito o teste (linguagem, framework).
 - [ ] Publique a API e o WEBAPP, nós indicamos o heroku (Você vai encontrar vários tutoriais no google sobre isso 😉).
