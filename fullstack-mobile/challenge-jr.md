@@ -42,10 +42,17 @@ Queremos que você demonstre seus conhecimentos Mobile, precisamos de uma tela p
 além disso queremos que na dashboard seja listado os posts em forma de cards com título e um badge com a categoria, e tenhamos um filtro de categoria, data/hora.
 
 Segue exemplo de layout pro teste, lembrando que não precisa seguir a risca é somente para dar uma idéia.
-![Home - mockup](https://raw.githubusercontent.com/ezDevs/recrutamento/master/images/home-mobile.png)
 
-![List 1 - mockups](https://raw.githubusercontent.com/ezDevs/recrutamento/master/images/list-mobile.png)
-![List 2 - mockups](https://raw.githubusercontent.com/ezDevs/recrutamento/master/images/list-mobile-2.png)
+## Home
+
+![Home - mockup](https://raw.githubusercontent.com/ezDevs/recrutamento/master/images/home-mobile.jpg)
+
+## Listagem
+
+![List 1 - mockups](https://raw.githubusercontent.com/ezDevs/recrutamento/master/images/list-mobile.jpg)
+![List 2 - mockups](https://raw.githubusercontent.com/ezDevs/recrutamento/master/images/list-mobile-2.jpg)
+
+## Criar/Editar
 
 ![Create/Edit - mockups](https://raw.githubusercontent.com/ezDevs/recrutamento/master/images/create-edit-mobile.png)
 

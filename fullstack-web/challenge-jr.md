@@ -41,9 +41,16 @@ Nesse desafio queremos que você crie um projeto web, similar a um blog, onde te
 Queremos que você demonstre seus conhecimentos front-end, para isso precisamos de uma tela para (create/read/update/delete), de post e categoria, além disso queremos que na dashboard seja listado os posts, e tenhamos um filtro de categoria, data/hora.
 
 Segue exemplo de layout pro teste, lembrando que não precisa seguir a risca é somente para dar uma idéia.
+
+## Home
+
 ![Home - mockup](https://raw.githubusercontent.com/ezDevs/recrutamento/master/images/home.png)
 
-![List - mockups](https://raw.githubusercontent.com/ezDevs/recrutamento/master/images/list.png)
+## Listagem
+
+![List - mockups](https://raw.githubusercontent.com/ezDevs/recrutamento/master/images/list.jpg)
+
+## Criar/Editar
 
 ![Create/Edit - mockups](https://raw.githubusercontent.com/ezDevs/recrutamento/master/images/create_edit.png)
 
