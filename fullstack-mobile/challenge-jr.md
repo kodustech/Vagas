@@ -57,7 +57,7 @@ Segue exemplo de layout pro teste, lembrando que não precisa seguir a risca é 
 ![Create/Edit - mockups](https://raw.githubusercontent.com/ezDevs/recrutamento/master/images/create-edit-mobile.png)
 
 # Extra
-- [ ] Aplicar layout completo proposto aqui - LINK LAYOUT
+- [ ] Aplicar layout completo proposto aqui
 - [ ] Enviar apk para instalação
 - [ ] Boas práticas de acordo com o que foi feito o teste (linguagem, framework).
 - [ ] Publique a API, nós indicamos o heroku (Você vai encontrar vários tutoriais no google sobre isso 😉).
