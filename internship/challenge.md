@@ -13,7 +13,7 @@ Obrigado por chegar até aqui, antes de começar, tem algumas coisas importantes
 fique a vontade em perguntar qualquer coisa relacionada ao projeto ou tecnologia para nós.
 - Se você tiver alguma melhoria ou sugestão para fazer no app, faça! Nós adoramos isso, sinta-se a vontade. 😍
 - Não estamos avaliando layout, mas adoramos coisas bonitas. Se precisar de referência [clique aqui](http://www.uplabs.com/)
-- Ao finalizar o teste envie um e-mail para vagas@ezdevs.tech
+- Ao finalizar o teste envie um e-mail para vagas@ezdevs.com.br
 
 #Prazo 1 semana
 
