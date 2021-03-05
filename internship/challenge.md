@@ -15,8 +15,6 @@ fique a vontade em perguntar qualquer coisa relacionada ao projeto ou tecnologia
 - Não estamos avaliando layout, mas adoramos coisas bonitas. Se precisar de referência [clique aqui](http://www.uplabs.com/)
 - Ao finalizar o teste envie um e-mail para vagas@ezdevs.com.br
 
-#Prazo 1 semana
-
 # Começando o desafio
 
 Nesse desafio queremos que você crie um projeto, onde deva escolher e consumir uma API pública https://github.com/toddmotto/public-apis.
