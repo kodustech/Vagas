@@ -24,8 +24,6 @@ fique a vontade em perguntar qualquer coisa relacionada ao projeto ou tecnologia
 
 O projeto deve ter um README.md com todas as instruções sobre como executar e testar o projeto e os serviços disponibilizados.
 
-#Prazo 1 semana
-
 # Começando o desafio Back-end
 Nesse desafio queremos que você melhore o back-end dessa aplicação, utilizando conceitos avançados de arquitetura, padrões de projeto, Clean Code, SOLID, vamos disponibilizar um código base (LINK AQUI).
 
