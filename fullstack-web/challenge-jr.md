@@ -22,8 +22,6 @@ fique a vontade em perguntar qualquer coisa relacionada ao projeto ou tecnologia
 
 O projeto deve ter um README.md com todas as instruções sobre como executar e testar o projeto e os serviços disponibilizados.
 
-#Prazo 1 semana
-
 # Começando o desafio Back-end
 Nesse desafio queremos que você crie um projeto de API, similar a um blog, onde teremos cadastro de post e categorias.
 
