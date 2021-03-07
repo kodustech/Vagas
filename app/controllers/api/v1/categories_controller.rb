@@ -25,7 +25,7 @@ module Api
         category = Category.find(params[:id])
         if category.update_attributes(category_params)
           render json: { status: 'Success!', message: 'Updated Category', data: category },
-                 status: :upgrade_required
+                 status: :ok
         else
           render json: { data: category.errors }, status: :unprocessable_entity
         end

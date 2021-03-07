@@ -22,7 +22,7 @@ class Api::V1::PostsController < ApplicationController
   def update
     post = Post.find(params[:id])
     if post.update_attributes(post_params)
-      render json: { status: 'Success!', message: 'Updated Post', data: post }, status: :upgrade_required
+      render json: { status: 'Success!', message: 'Updated Post', data: post }, status: :ok
     else
       render json: { data: post.errors }, status: :unprocessable_entity
     end
