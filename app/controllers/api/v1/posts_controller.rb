@@ -1,76 +1,43 @@
 class Api::V1::PostsController < ApplicationController
- 
+      			
+			# Listar todos os posts
+			def index
+				posts = Post.order('created_at DESC');
+				render json: {status: 'Success!', message:'Posts loaded', data:posts},status: :ok
+			end
 
- before_action :set_post, only: [:create, :index, :update, :destroy]
+        	def show
+				post = Post.find(params[:id])
+				render json: {status: 'Success!', message:'Post loaded', data:post},status: :ok
+			end
 
- # GET /api/v1/posts
+            def create
+				post = Post.new(post_params)
+				if post.save
+					render json: {status: 'Success!', message:'Saved Post', data:post},status: :ok
+				else
+					render json: {status: 'Error', message:'Posts not saved', data:post.erros},status: :unprocessable_entity
+				end
+			end
 
- def index
+            def update
+				post = Post.find(params[:id])
+				if post.update_attributes(post_params)
+					render json: {status: 'Success!', message:'Updated Post', data:post},status: :ok
+				else
+					render json: {status: 'Error', message:'Posts not update', data:post.erros},status: :unprocessable_entity
+				end
+			end
 
-   render json: Post.all
-
- end
-
- # GET /api/v1/posts/1
-
- def show
-
-   render json: @posts
-
- end
-
- # POST /api/v1/posts
-
- def create
-
-   post = Post.new(post_params)
-
-    if post.save
-      render json: post
-    else
-      render json: @post.errors, status: :unprocessable_entity
-    end
-
- end
-
- # PATCH/PUT /api/v1/posts/1
-
- def update
-
-   if @post.update(post_params)
-
-     render json: @post
-
-   else
-
-     render json: @post.errors, status: :unprocessable_entity
-
-   end
-
- end
-
- # DELETE /api/v1/posts/1
-
- def destroy
-
-   @post.destroy
-
- end
-
- private
-
-
-   def set_post
-
-     @post = Post.find(params[:id])
-
-   end
-
-
-   def post_params
-
-     params.require(:post).permit(:title, :body, :posted_at, :category_id)
-
-   end
-
+            def destroy
+				post = Post.find(params[:id])
+				post.destroy
+				render json: {status: 'Success!', message:'Deleted post', data:post},status: :ok
+			end
+			# Parametros aceitos
+			private
+			def post_params
+				params.permit(:title, :body, :posted_at, :category_id)
+			end
+      
 end
