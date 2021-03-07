@@ -1,73 +1,46 @@
-class Api::V1::CategoriesController < ApplicationController
-     before_action :set_category, only: [:create, :index, :update, :destroy]
+module Api
+	module V1
+		class CategoriesController < ApplicationController
+      			
+			# Listar todos os artigos
+			def index
+				categories = Category.order('created_at DESC');
+				render json: {status: 'Success!', message:'Categories loaded', data:categories},status: :ok
+			end
 
- # GET /api/v1/categories
+            def show
+				category = Category.find(params[:id])
+				render json: {status: 'Success!', message:'Category loaded', data:category},status: :ok
+			end
 
- def index
+            def create
+				category = Category.new(category_params)
+				if category.save
+					render json: {status: 'Success!', message:'Saved Category', data:category},status: :ok
+				else
+					render json: {status: 'Error', message:'Categories not saved', data:category.erros},status: :unprocessable_entity
+				end
+			end
 
-   render json: Category.all
+            def update
+				category = Category.find(params[:id])
+				if category.update_attributes(category_params)
+					render json: {status: 'Success!', message:'Updated Category', data:category},status: :ok
+				else
+					render json: {status: 'Error', message:'Categories not update', data:category.erros},status: :unprocessable_entity
+				end
+			end
 
- end
+            def destroy
+				category = Category.find(params[:id])
+				category.destroy
+				render json: {status: 'Success!', message:'Deleted category', data:category},status: :ok
+			end
 
- # GET /api/v1/categories/1
-
- def show
-
-   render json: @categories
-
- end
-
- # Category /api/v1/categories
-
- def create
-
-   category = Category.new(category_params)
-
-    if category.save
-      render json: category
-    else
-      render json: @category.errors, status: :unprocessable_entity
-    end
-
- end
-
- # PATCH/PUT /api/v1/categories/1
-
- def update
-
-   if @category.update(category_params)
-
-     render json: @category
-
-   else
-
-     render json: @category.errors, status: :unprocessable_entity
-
-   end
-
- end
-
- # DELETE /api/v1/categories/1
-
- def destroy
-
-   @category.destroy
-
- end
-
- private
-
-
-   def set_category
-
-     @category = Category.find(params[:id])
-
-   end
-
-
-   def category_params
-
-     params.require(:category).permit(:name)
-
-   end
+            private
+			def category_params
+				params.permit(:name)
+			end
+		end
+	end
 end
