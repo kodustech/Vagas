@@ -157,3 +157,210 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 19ms (Views: 14.8ms | ActiveRecord: 0.0ms | Allocations: 2809)
 
 
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'The Wealth of Nations' LIMIT 1[0m
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('The Wealth of Nations', 'Temporibus quae doloremque neque.', '2021-03-07 21:25:36.077315', '2021-03-07 21:25:36.077315')[0m
+  [1m[36mTRANSACTION (206.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Terrible Swift Sword' LIMIT 1[0m
+  [1m[36mCategory Create (0.7ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('Terrible Swift Sword', 'Sunt eos ut voluptas.', '2021-03-07 21:25:36.296342', '2021-03-07 21:25:36.296342')[0m
+  [1m[36mTRANSACTION (145.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'The Cricket on the Hearth' LIMIT 1[0m
+  [1m[36mCategory Create (0.6ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('The Cricket on the Hearth', 'Et sapiente quia consequatur.', '2021-03-07 21:25:36.455280', '2021-03-07 21:25:36.455280')[0m
+  [1m[36mTRANSACTION (134.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'An Acceptable Time' LIMIT 1[0m
+  [1m[36mCategory Create (0.7ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('An Acceptable Time', 'Ipsam totam corrupti dolor.', '2021-03-07 21:25:36.603020', '2021-03-07 21:25:36.603020')[0m
+  [1m[36mTRANSACTION (145.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Blithe Spirit' LIMIT 1[0m
+  [1m[36mCategory Create (39.0ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('Blithe Spirit', 'Aut sit autem qui.', '2021-03-07 21:25:36.761740', '2021-03-07 21:25:36.761740')[0m
+  [1m[36mTRANSACTION (169.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Alone on a Wide, Wide Sea' LIMIT 1[0m
+  [1m[36mCategory Create (0.3ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('Alone on a Wide, Wide Sea', 'Dolorum non nobis consectetur.', '2021-03-07 21:25:36.979211', '2021-03-07 21:25:36.979211')[0m
+  [1m[36mTRANSACTION (238.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Paths of Glory' LIMIT 1[0m
+  [1m[36mCategory Create (0.7ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('Paths of Glory', 'Dignissimos ut quisquam sunt.', '2021-03-07 21:25:37.230941', '2021-03-07 21:25:37.230941')[0m
+  [1m[36mTRANSACTION (157.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Look to Windward' LIMIT 1[0m
+  [1m[36mCategory Create (0.7ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('Look to Windward', 'Molestiae et sint rerum.', '2021-03-07 21:25:37.403950', '2021-03-07 21:25:37.403950')[0m
+  [1m[36mTRANSACTION (143.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Postern of Fate' LIMIT 1[0m
+  [1m[36mCategory Create (0.8ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('Postern of Fate', 'Et itaque voluptatum nobis.', '2021-03-07 21:25:37.562245', '2021-03-07 21:25:37.562245')[0m
+  [1m[36mTRANSACTION (120.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Little Hands Clapping' LIMIT 1[0m
+  [1m[36mCategory Create (0.8ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('Little Hands Clapping', 'Quo temporibus alias facere.', '2021-03-07 21:25:37.697300', '2021-03-07 21:25:37.697300')[0m
+  [1m[36mTRANSACTION (142.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'A Passage to India' LIMIT 1[0m
+  [1m[36mCategory Create (0.5ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('A Passage to India', 'Voluptas in officia expedita.', '2021-03-07 21:25:37.852525', '2021-03-07 21:25:37.852525')[0m
+  [1m[36mTRANSACTION (194.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Specimen Days' LIMIT 1[0m
+  [1m[36mCategory Create (0.8ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('Specimen Days', 'Architecto harum officiis dignissimos.', '2021-03-07 21:25:38.061286', '2021-03-07 21:25:38.061286')[0m
+  [1m[36mTRANSACTION (192.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'That Good Night' LIMIT 1[0m
+  [1m[36mCategory Create (0.8ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('That Good Night', 'Autem iste ea libero.', '2021-03-07 21:25:38.269469', '2021-03-07 21:25:38.269469')[0m
+  [1m[36mTRANSACTION (142.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Time To Murder And Create' LIMIT 1[0m
+  [1m[36mCategory Create (0.8ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('Time To Murder And Create', 'Nisi quos deleniti assumenda.', '2021-03-07 21:25:38.443020', '2021-03-07 21:25:38.443020')[0m
+  [1m[36mTRANSACTION (139.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'A Glass of Blessings' LIMIT 1[0m
+  [1m[36mCategory Create (0.8ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('A Glass of Blessings', 'Eos eligendi fugit sed.', '2021-03-07 21:25:38.598766', '2021-03-07 21:25:38.598766')[0m
+  [1m[36mTRANSACTION (131.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'The Sun Also Rises' LIMIT 1[0m
+  [1m[36mCategory Create (0.8ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('The Sun Also Rises', 'Atque asperiores est velit.', '2021-03-07 21:25:38.745860', '2021-03-07 21:25:38.745860')[0m
+  [1m[36mTRANSACTION (143.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Fame Is the Spur' LIMIT 1[0m
+  [1m[36mCategory Create (0.5ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('Fame Is the Spur', 'Sed ut quos suscipit.', '2021-03-07 21:25:38.904899', '2021-03-07 21:25:38.904899')[0m
+  [1m[36mTRANSACTION (132.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'The Proper Study' LIMIT 1[0m
+  [1m[36mCategory Create (0.8ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('The Proper Study', 'Assumenda aperiam aliquid nulla.', '2021-03-07 21:25:39.053506', '2021-03-07 21:25:39.053506')[0m
+  [1m[36mTRANSACTION (175.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'The Moving Toyshop' LIMIT 1[0m
+  [1m[36mCategory Create (0.8ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('The Moving Toyshop', 'Voluptatem ut dicta voluptatibus.', '2021-03-07 21:25:39.245087', '2021-03-07 21:25:39.245087')[0m
+  [1m[36mTRANSACTION (145.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'The Little Foxes' LIMIT 1[0m
+  [1m[36mCategory Create (0.8ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('The Little Foxes', 'Quaerat omnis et quia.', '2021-03-07 21:25:39.405706', '2021-03-07 21:25:39.405706')[0m
+  [1m[36mTRANSACTION (136.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'The Monkey\'s Raincoat' LIMIT 1[0m
+  [1m[36mCategory Create (0.5ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('The Monkey\'s Raincoat', 'Et et cum non.', '2021-03-07 21:25:39.554752', '2021-03-07 21:25:39.554752')[0m
+  [1m[36mTRANSACTION (123.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'To Your Scattered Bodies Go' LIMIT 1[0m
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('To Your Scattered Bodies Go', 'Ut eum sequi ut.', '2021-03-07 21:25:39.686733', '2021-03-07 21:25:39.686733')[0m
+  [1m[36mTRANSACTION (189.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Tender Is the Night' LIMIT 1[0m
+  [1m[36mCategory Create (0.5ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('Tender Is the Night', 'Maiores ut aut et.', '2021-03-07 21:25:39.886192', '2021-03-07 21:25:39.886192')[0m
+  [1m[36mTRANSACTION (121.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'The Wings of the Dove' LIMIT 1[0m
+  [1m[36mCategory Create (0.8ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('The Wings of the Dove', 'Quam aut iusto in.', '2021-03-07 21:25:40.021743', '2021-03-07 21:25:40.021743')[0m
+  [1m[36mTRANSACTION (142.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'The Grapes of Wrath' LIMIT 1[0m
+  [1m[36mCategory Create (0.8ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('The Grapes of Wrath', 'Sit id et sed.', '2021-03-07 21:25:40.180609', '2021-03-07 21:25:40.180609')[0m
+  [1m[36mTRANSACTION (142.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'No Longer at Ease' LIMIT 1[0m
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('No Longer at Ease', 'Error accusamus architecto omnis.', '2021-03-07 21:25:40.336083', '2021-03-07 21:25:40.336083')[0m
+  [1m[36mTRANSACTION (110.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'The Golden Apples of the Sun' LIMIT 1[0m
+  [1m[36mCategory Create (0.7ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('The Golden Apples of the Sun', 'Vel voluptas non qui.', '2021-03-07 21:25:40.459354', '2021-03-07 21:25:40.459354')[0m
+  [1m[36mTRANSACTION (144.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'The Curious Incident of the Dog in the Night-Time' LIMIT 1[0m
+  [1m[36mCategory Create (0.7ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('The Curious Incident of the Dog in the Night-Time', 'Tempore quaerat rerum quia.', '2021-03-07 21:25:40.619020', '2021-03-07 21:25:40.619020')[0m
+  [1m[36mTRANSACTION (153.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Fame Is the Spur' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Terrible Swift Sword' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Fair Stood the Wind for France' LIMIT 1[0m
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('Fair Stood the Wind for France', 'Eum eius qui ex.', '2021-03-07 21:25:40.809726', '2021-03-07 21:25:40.809726')[0m
+  [1m[36mTRANSACTION (257.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'The Golden Apples of the Sun' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Terrible Swift Sword' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'An Evil Cradling' LIMIT 1[0m
+  [1m[36mCategory Create (0.3ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('An Evil Cradling', 'Esse reprehenderit et sed.', '2021-03-07 21:25:41.088223', '2021-03-07 21:25:41.088223')[0m
+  [1m[36mTRANSACTION (138.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Antic Hay' LIMIT 1[0m
+  [1m[36mCategory Create (0.7ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('Antic Hay', 'Adipisci quia aspernatur magnam.', '2021-03-07 21:25:41.239418', '2021-03-07 21:25:41.239418')[0m
+  [1m[36mTRANSACTION (143.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Let Us Now Praise Famous Men' LIMIT 1[0m
+  [1m[36mCategory Create (0.7ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('Let Us Now Praise Famous Men', 'Dignissimos tempora a autem.', '2021-03-07 21:25:41.398135', '2021-03-07 21:25:41.398135')[0m
+  [1m[36mTRANSACTION (154.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'A Handful of Dust' LIMIT 1[0m
+  [1m[36mCategory Create (0.3ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('A Handful of Dust', 'Est molestias fugiat omnis.', '2021-03-07 21:25:41.567828', '2021-03-07 21:25:41.567828')[0m
+  [1m[36mTRANSACTION (134.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'A Monstrous Regiment of Women' LIMIT 1[0m
+  [1m[36mCategory Create (0.7ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('A Monstrous Regiment of Women', 'Consectetur adipisci voluptatem quas.', '2021-03-07 21:25:41.715434', '2021-03-07 21:25:41.715434')[0m
+  [1m[36mTRANSACTION (260.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Arms and the Man' LIMIT 1[0m
+  [1m[36mCategory Create (0.3ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('Arms and the Man', 'Qui ut aut dolorum.', '2021-03-07 21:25:41.988002', '2021-03-07 21:25:41.988002')[0m
+  [1m[36mTRANSACTION (99.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'An Acceptable Time' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Clouds of Witness' LIMIT 1[0m
+  [1m[36mCategory Create (0.7ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('Clouds of Witness', 'Sint voluptas vero vel.', '2021-03-07 21:25:42.111129', '2021-03-07 21:25:42.111129')[0m
+  [1m[36mTRANSACTION (133.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'I Know Why the Caged Bird Sings' LIMIT 1[0m
+  [1m[36mCategory Create (0.7ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('I Know Why the Caged Bird Sings', 'Officiis unde molestiae fuga.', '2021-03-07 21:25:42.259914', '2021-03-07 21:25:42.259914')[0m
+  [1m[36mTRANSACTION (129.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'The Mermaids Singing' LIMIT 1[0m
+  [1m[36mCategory Create (0.7ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('The Mermaids Singing', 'Eius voluptas nobis amet.', '2021-03-07 21:25:42.404847', '2021-03-07 21:25:42.404847')[0m
+  [1m[36mTRANSACTION (143.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'The Parliament of Man' LIMIT 1[0m
+  [1m[36mCategory Create (0.7ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('The Parliament of Man', 'Nihil veritatis aut quibusdam.', '2021-03-07 21:25:42.563424', '2021-03-07 21:25:42.563424')[0m
+  [1m[36mTRANSACTION (144.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Cover Her Face' LIMIT 1[0m
+  [1m[36mCategory Create (0.7ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('Cover Her Face', 'Quidem vel eaque provident.', '2021-03-07 21:25:42.722713', '2021-03-07 21:25:42.722713')[0m
+  [1m[36mTRANSACTION (143.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Vile Bodies' LIMIT 1[0m
+  [1m[36mCategory Create (0.3ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('Vile Bodies', 'Ea facere dolorem ut.', '2021-03-07 21:25:42.878560', '2021-03-07 21:25:42.878560')[0m
+  [1m[36mTRANSACTION (124.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'A Darkling Plain' LIMIT 1[0m
+  [1m[36mCategory Create (0.5ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('A Darkling Plain', 'Dolor molestiae esse dolorem.', '2021-03-07 21:25:43.015346', '2021-03-07 21:25:43.015346')[0m
+  [1m[36mTRANSACTION (134.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'If I Forget Thee Jerusalem' LIMIT 1[0m
+  [1m[36mCategory Create (0.8ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('If I Forget Thee Jerusalem', 'Minus omnis eveniet temporibus.', '2021-03-07 21:25:43.164765', '2021-03-07 21:25:43.164765')[0m
+  [1m[36mTRANSACTION (142.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Wildfire at Midnight' LIMIT 1[0m
+  [1m[36mCategory Create (0.8ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('Wildfire at Midnight', 'Amet voluptatibus incidunt nihil.', '2021-03-07 21:25:43.323837', '2021-03-07 21:25:43.323837')[0m
+  [1m[36mTRANSACTION (130.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Jacob Have I Loved' LIMIT 1[0m
+  [1m[36mCategory Create (0.8ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `description`, `created_at`, `updated_at`) VALUES ('Jacob Have I Loved', 'Et doloremque consequatur et.', '2021-03-07 21:25:43.472035', '2021-03-07 21:25:43.472035')[0m
+  [1m[36mTRANSACTION (141.6ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/api/v1/categories" for ::1 at 2021-03-07 18:29:56 -0300
+  
+ActionController::RoutingError (uninitialized constant Api):
+  
+Started GET "/api/v1/categories" for ::1 at 2021-03-07 18:32:46 -0300
+Processing by Api::V1::CategoriesController#index as HTML
+  [1m[36mCategory Load (0.7ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:8:in `index'
+Completed 200 OK in 27ms (Views: 17.3ms | ActiveRecord: 5.0ms | Allocations: 9489)
+
+
