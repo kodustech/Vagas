@@ -1,9 +1,7 @@
 module Api::V1
+   class ApiController < ApplicationController
 
- class ApiController < ApplicationController
+      # Métodos globais
 
-   # Métodos globais
-
- end
-
+   end
 end
