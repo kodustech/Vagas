@@ -10,12 +10,21 @@ module Api
       end
 
       def show
-        render json: {status: 'SUCCESS', message:'Categoria carregada', data:@category }
+        render json: {status: 'SUCCESS', message:'Categoria carregada', data:@category },status: :ok
       end
 
       def destroy
         @category.destroy
-        render json: {status: 'SUCCESS', message:'Categoria deletada'}
+        render json: {status: 'SUCCESS', message:'Categoria deletada'}, status: :ok
+      end
+
+      def create
+        @category = Category.new(category_params)
+        if @category.save
+          render json: {status: 'SUCCESS', message:'Categoria criada', data: @category}, status: :ok
+        else
+          render json: {status: :unprocessable_entity, message: 'Falha na criacao da catogoria', data: @category.errors},status: :unprocessable_entity
+        end
       end
 
       private
