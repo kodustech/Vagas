@@ -749,3 +749,133 @@ Processing by Api::V1::PostsController#recoverPostsByCategory as HTML
 Completed 200 OK in 9ms (Views: 5.9ms | ActiveRecord: 1.4ms | Allocations: 979)
 
 
+Started GET "/api/v1/posts/category/5" for ::1 at 2021-03-08 20:11:20 -0300
+Processing by Api::V1::PostsController#recoverPostsByCategory as HTML
+  Parameters: {"category_id"=>"5"}
+  [1m[36mPost Load (0.8ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` WHERE `posts`.`category_id` = 5[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:40:in `recoverPostsByCategory'
+Completed 200 OK in 15ms (Views: 10.5ms | ActiveRecord: 1.0ms | Allocations: 4992)
+
+
+Started GET "/api/v1/posts/date/5" for ::1 at 2021-03-08 20:11:31 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/posts/date/5"):
+  
+Started GET "/api/v1/posts" for ::1 at 2021-03-08 20:11:45 -0300
+Processing by Api::V1::PostsController#index as HTML
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:9:in `index'
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.5ms | Allocations: 5063)
+
+
+Started GET "/api/v1/posts/date/2021-03-08" for ::1 at 2021-03-08 20:12:07 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/posts/date/2021-03-08"):
+  
+Started GET "/api/v1/posts/date/2021-03-08" for ::1 at 2021-03-08 20:16:35 -0300
+Processing by Api::V1::PostsController#recoverPostsByDate as HTML
+  Parameters: {"date"=>"2021-03-08"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 959)
+
+
+  
+TypeError (no implicit conversion of ActiveSupport::Duration into String):
+  
+app/controllers/api/v1/posts_controller.rb:44:in `+'
+app/controllers/api/v1/posts_controller.rb:44:in `recoverPostsByDate'
+Started GET "/api/v1/posts/date/2021-03-08" for ::1 at 2021-03-08 20:17:08 -0300
+Processing by Api::V1::PostsController#recoverPostsByDate as HTML
+  Parameters: {"date"=>"2021-03-08"}
+Completed 500 Internal Server Error in 163038ms (ActiveRecord: 0.0ms | Allocations: 54079)
+
+
+  
+TypeError (no implicit conversion of ActiveSupport::Duration into String):
+  
+app/controllers/api/v1/posts_controller.rb:45:in `+'
+app/controllers/api/v1/posts_controller.rb:45:in `recoverPostsByDate'
+Started GET "/api/v1/posts/date/2021-03-08" for ::1 at 2021-03-08 20:20:20 -0300
+Processing by Api::V1::PostsController#recoverPostsByDate as HTML
+  Parameters: {"date"=>"2021-03-08"}
+Completed 500 Internal Server Error in 7152ms (ActiveRecord: 0.0ms | Allocations: 7574)
+
+
+  
+TypeError (no implicit conversion of ActiveSupport::Duration into String):
+  
+app/controllers/api/v1/posts_controller.rb:45:in `+'
+app/controllers/api/v1/posts_controller.rb:45:in `recoverPostsByDate'
+Started GET "/api/v1/posts/date/2021-03-08" for ::1 at 2021-03-08 20:22:40 -0300
+Processing by Api::V1::PostsController#recoverPostsByDate as HTML
+  Parameters: {"date"=>"2021-03-08"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 998)
+
+
+  
+ArgumentError (You have passed String object to #and. Pass an ActiveRecord::Relation object instead.):
+  
+app/controllers/api/v1/posts_controller.rb:46:in `recoverPostsByDate'
+Started GET "/api/v1/posts/date/2021-03-08" for ::1 at 2021-03-08 20:24:52 -0300
+Processing by Api::V1::PostsController#recoverPostsByDate as HTML
+  Parameters: {"date"=>"2021-03-08"}
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` WHERE (posts.created_at >= 2021-03-08T00:00:00+00:00) AND (posts.created_at < 2021-03-09T00:00:00+00:00)[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:47:in `recoverPostsByDate'
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.5ms | Allocations: 1980)
+
+
+  
+ActiveRecord::StatementInvalid (Mysql2::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':00:00+00:00) AND (posts.created_at < 2021-03-09T00:00:00+00:00)' at line 1):
+  
+app/controllers/api/v1/posts_controller.rb:47:in `recoverPostsByDate'
+Started GET "/api/v1/posts/date/2021-03-08" for ::1 at 2021-03-08 20:28:35 -0300
+Processing by Api::V1::PostsController#recoverPostsByDate as HTML
+  Parameters: {"date"=>"2021-03-08"}
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` WHERE `posts`.`date` BETWEEN '2021-03-08 00:00:00' AND '2021-03-09 00:00:00'[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:47:in `recoverPostsByDate'
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 1.8ms | Allocations: 2327)
+
+
+  
+ActiveRecord::StatementInvalid (Mysql2::Error: Unknown column 'posts.date' in 'where clause'):
+  
+app/controllers/api/v1/posts_controller.rb:47:in `recoverPostsByDate'
+Started GET "/api/v1/posts/date/2021-03-08" for ::1 at 2021-03-08 20:28:55 -0300
+Processing by Api::V1::PostsController#recoverPostsByDate as HTML
+  Parameters: {"date"=>"2021-03-08"}
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` WHERE `posts`.`created_at` BETWEEN '2021-03-08 00:00:00' AND '2021-03-09 00:00:00'[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:47:in `recoverPostsByDate'
+Completed 200 OK in 20ms (Views: 12.9ms | ActiveRecord: 3.8ms | Allocations: 8985)
+
+
+Started GET "/api/v1/posts/date/2021-03-09" for ::1 at 2021-03-08 20:29:05 -0300
+Processing by Api::V1::PostsController#recoverPostsByDate as HTML
+  Parameters: {"date"=>"2021-03-09"}
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` WHERE `posts`.`created_at` BETWEEN '2021-03-09 00:00:00' AND '2021-03-10 00:00:00'[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:47:in `recoverPostsByDate'
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.7ms | Allocations: 829)
+
+
+Started GET "/api/v1/posts/date/2021-03-08" for ::1 at 2021-03-08 20:29:14 -0300
+Processing by Api::V1::PostsController#recoverPostsByDate as HTML
+  Parameters: {"date"=>"2021-03-08"}
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` WHERE `posts`.`created_at` BETWEEN '2021-03-08 00:00:00' AND '2021-03-09 00:00:00'[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:47:in `recoverPostsByDate'
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.6ms | Allocations: 5148)
+
+
+Started GET "/api/v1/posts/date/2021-03-07" for ::1 at 2021-03-08 20:29:18 -0300
+Processing by Api::V1::PostsController#recoverPostsByDate as HTML
+  Parameters: {"date"=>"2021-03-07"}
+  [1m[36mPost Load (1.5ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` WHERE `posts`.`created_at` BETWEEN '2021-03-07 00:00:00' AND '2021-03-08 00:00:00'[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:47:in `recoverPostsByDate'
+Completed 200 OK in 9ms (Views: 5.3ms | ActiveRecord: 1.5ms | Allocations: 829)
+
+
+Started GET "/api/v1/posts/date/2021-03-08" for ::1 at 2021-03-08 20:29:23 -0300
+Processing by Api::V1::PostsController#recoverPostsByDate as HTML
+  Parameters: {"date"=>"2021-03-08"}
+  [1m[36mPost Load (1.1ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` WHERE `posts`.`created_at` BETWEEN '2021-03-08 00:00:00' AND '2021-03-09 00:00:00'[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:47:in `recoverPostsByDate'
+Completed 200 OK in 32ms (Views: 29.4ms | ActiveRecord: 1.1ms | Allocations: 5149)
+
+

@@ -1,3 +1,4 @@
+require 'date'
 module Api
   module V1
     class PostsController < ApplicationController
@@ -37,6 +38,12 @@ module Api
 
       def recoverPostsByCategory
         posts = Post.where(category_id: params[:category_id])
+        render json: {status: 'SUCCESS', message:"Posts da categoria #{params[:category_id]} carregados", data:posts},status: :ok
+      end
+
+      def recoverPostsByDate
+        date = DateTime.parse(params[:date])
+        posts = Post.where(created_at: date..date+24.hours)
         render json: {status: 'SUCCESS', message:"Posts da categoria #{params[:category_id]} carregados", data:posts},status: :ok
       end
 
