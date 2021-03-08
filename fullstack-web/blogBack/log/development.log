@@ -726,3 +726,11 @@ Processing by Api::V1::PostsController#index as HTML
 Completed 200 OK in 22ms (Views: 14.4ms | ActiveRecord: 3.4ms | Allocations: 10009)
 
 
+Started GET "/api/v1/posts/45" for ::1 at 2021-03-08 18:41:41 -0300
+Processing by Api::V1::PostsController#show as HTML
+  Parameters: {"id"=>"45"}
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 45 LIMIT 1[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:19:in `set_post'
+Completed 200 OK in 13ms (Views: 0.5ms | ActiveRecord: 0.7ms | Allocations: 5280)
+
+
