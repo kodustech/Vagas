@@ -18,10 +18,23 @@ module Api
         render json: {status: 'SUCCESS', message:'Post deletado'}, status: :ok
       end
 
+      def create
+        @post = Post.new(post_params)
+        if @post.save
+          render json: {status: 'SUCCESS', message:'Post criada', data: @post}, status: :ok
+        else
+          render json: {status: :unprocessable_entity, message: 'Falha na criacao da post', data: @post.errors},status: :unprocessable_entity
+        end
+      end
+
       private
 
       def set_post
         @post = Post.find(params[:id])
+      end
+
+      def post_params
+        params.require(:post).permit(:title, :text, :category_id)
       end
 
     end
