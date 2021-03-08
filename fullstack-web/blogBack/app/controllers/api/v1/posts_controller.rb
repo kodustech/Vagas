@@ -13,6 +13,11 @@ module Api
         render json: {status: 'SUCCESS', message:'Post carregado', data: @post},status: :ok
       end
 
+      def destroy
+        @post.destroy
+        render json: {status: 'SUCCESS', message:'Post deletado'}, status: :ok
+      end
+
       private
 
       def set_post
