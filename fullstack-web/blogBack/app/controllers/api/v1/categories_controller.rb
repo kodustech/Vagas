@@ -27,6 +27,14 @@ module Api
         end
       end
 
+      def update
+        if @category.update(category_params)
+          render json: {status: 'SUCCESS', message:'Categoria atualizada', data: @category}, status: :ok
+        else
+          render json: {status: :unprocessable_entity, message: 'Falha na atualizacao da catogoria', data: @category.errors},status: :unprocessable_entity
+        end
+      end
+
       private
 
       def category_params
