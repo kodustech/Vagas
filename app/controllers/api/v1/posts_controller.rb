@@ -1,8 +1,13 @@
 class Api::V1::PostsController < ApplicationController
 
+  before_action :set_post, only: [:show, :edit, :destroy]
+
   def index
-    posts = Post.order('created_at DESC')
-    render json: { data: posts }, status: :ok
+
+    @posts = Post.where(nil)
+    filtering_params(params).each do |key, value|
+    @posts = @posts.public_send("filter_by_#{key}", value) if value.present?
+    end
   end
 
   def show
@@ -38,6 +43,14 @@ class Api::V1::PostsController < ApplicationController
   end
 
   private
+  
+  def set_post
+    post = Post.find(params[:id])
+  end
+  
+  def filtering_params(params)
+    params.slice(:category)
+  end
 
   def post_params
     params.permit(:title, :body, :posted_at, :category_id)
