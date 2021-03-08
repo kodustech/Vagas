@@ -27,6 +27,14 @@ module Api
         end
       end
 
+      def update
+        if @post.update(post_params)
+          render json: {status: 'SUCCESS', message:'Post atualizado', data: @post}, status: :ok
+        else
+          render json: {status: :unprocessable_entity, message: 'Falha na atualizacao da post', data: @post.errors},status: :unprocessable_entity
+        end
+      end
+
       private
 
       def set_post
