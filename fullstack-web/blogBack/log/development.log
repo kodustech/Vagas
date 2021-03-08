@@ -734,3 +734,18 @@ Processing by Api::V1::PostsController#show as HTML
 Completed 200 OK in 13ms (Views: 0.5ms | ActiveRecord: 0.7ms | Allocations: 5280)
 
 
+Started GET "/api/v1/posts" for ::1 at 2021-03-08 19:43:59 -0300
+Processing by Api::V1::PostsController#index as HTML
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:9:in `index'
+Completed 200 OK in 19ms (Views: 15.2ms | ActiveRecord: 1.0ms | Allocations: 9100)
+
+
+Started GET "/api/v1/category/posts/5" for ::1 at 2021-03-08 19:44:31 -0300
+Processing by Api::V1::PostsController#recoverPostsByCategory as HTML
+  Parameters: {"category_id"=>"5"}
+  [1m[36mPost Load (1.4ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` WHERE `posts`.`category_id` = 5[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:40:in `recoverPostsByCategory'
+Completed 200 OK in 9ms (Views: 5.9ms | ActiveRecord: 1.4ms | Allocations: 979)
+
+

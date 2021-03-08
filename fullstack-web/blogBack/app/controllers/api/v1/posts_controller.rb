@@ -35,6 +35,11 @@ module Api
         end
       end
 
+      def recoverPostsByCategory
+        posts = Post.where(category_id: params[:category_id])
+        render json: {status: 'SUCCESS', message:"Posts da categoria #{params[:category_id]} carregados", data:posts},status: :ok
+      end
+
       private
 
       def set_post
