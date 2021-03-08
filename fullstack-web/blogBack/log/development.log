@@ -389,3 +389,23 @@ Processing by Api::V1::CategoriesController#index as HTML
 Completed 200 OK in 20ms (Views: 15.4ms | ActiveRecord: 0.9ms | Allocations: 8345)
 
 
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT GET_LOCK('4882680772624295340', 0)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreatePosts (20210308041050)
+  [1m[35m (791.4ms)[0m  [1m[35mCREATE TABLE `posts` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `title` varchar(255), `text` text, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20210308041050')[0m
+  [1m[36mTRANSACTION (281.3ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddCategoryAssociationWithPost (20210308041511)
+  [1m[35m (849.1ms)[0m  [1m[35mALTER TABLE `posts` ADD `category_id` bigint[0m
+  [1m[35m (700.5ms)[0m  [1m[35mCREATE INDEX `index_posts_on_category_id` ON `posts` (`category_id`)[0m
+  [1m[35m (2115.5ms)[0m  [1m[35mALTER TABLE `posts` ADD CONSTRAINT `fk_rails_9b1b26f040`
+FOREIGN KEY (`category_id`)
+  REFERENCES `categories` (`id`)
+[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20210308041511')[0m
+  [1m[36mTRANSACTION (244.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.9ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT RELEASE_LOCK('4882680772624295340')[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
