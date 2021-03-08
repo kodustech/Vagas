@@ -1,7 +1,7 @@
 class Post < ApplicationRecord
 
   belongs_to :category
-  validates :name, presence: true, uniqueness: true
-  validates :description, presence: true
+  validates :title, presence: true, uniqueness: true
+  validates :text, presence: true
 
 end
