@@ -13,6 +13,11 @@ module Api
         render json: {status: 'SUCCESS', message:'Categoria carregada', data:@category }
       end
 
+      def destroy
+        @category.destroy
+        render json: {status: 'SUCCESS', message:'Categoria deletada'}
+      end
+
       private
 
       def category_params

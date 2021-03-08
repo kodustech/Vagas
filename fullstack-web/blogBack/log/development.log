@@ -382,3 +382,10 @@ Processing by Api::V1::CategoriesController#show as HTML
 Completed 200 OK in 12ms (Views: 0.5ms | ActiveRecord: 0.8ms | Allocations: 4737)
 
 
+Started GET "/api/v1/categories" for ::1 at 2021-03-08 00:07:28 -0300
+Processing by Api::V1::CategoriesController#index as HTML
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:9:in `index'
+Completed 200 OK in 20ms (Views: 15.4ms | ActiveRecord: 0.9ms | Allocations: 8345)
+
+
