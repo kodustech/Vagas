@@ -8,7 +8,7 @@
 
 .word-wrap{
   border: 2px solid gray;
-  border-radius: 2%;
+  border-radius: .25rem;
   padding: 1em;
   font-size: calc(0.6vw + 0.6em);
   direction: ltr;
@@ -25,6 +25,3 @@
   hyphens: auto;
 }
 
-.al {
-  display: inline-block;
-}

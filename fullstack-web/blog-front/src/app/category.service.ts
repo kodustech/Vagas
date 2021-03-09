@@ -16,6 +16,10 @@ export class CategoryService {
     return this.http.get(environment.url_back + '/api/v1/categories/' + id)
   }
 
+  deleteCategory(id: number): Observable<any> {
+    return this.http.delete(environment.url_back + '/api/v1/categories/' + id)
+  }
+
   constructor(
     private http: HttpClient
   ) {

@@ -18,6 +18,13 @@ export class CategoriesComponent implements OnInit {
 
   categories: any = []
 
+  deleteCategory(id: number) {
+    this.categoryService.deleteCategory(id).subscribe(resp => {
+      alert(resp.message);
+      window.location.reload();
+    })
+  }
+
   constructor(
     private categoryService: CategoryService
   ) { }

@@ -8,14 +8,14 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-5 col-md-12 col-12 pb-4">
-        <h1>Posts</h1>
-        <ul class="list-group al">
+        <h2>Posts</h2>
+        <ul class="list-group">
           <div *ngFor="let post of posts">
-            <li class="list-group-item">
+            <li class="list-group-item" style="width: 100%">
               <div class="row">
                 <div class="comment mt-4 text-justify float-left" >
                   <h4>{{post.title}}</h4> <span>- {{post.created_at | date: 'dd/MM/yyyy'}}</span> <br>
-                  <p class="word-wrap">ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</p>
+                  <p class="word-wrap">{{post.text}}</p>
                 </div>
               </div>
             </li>

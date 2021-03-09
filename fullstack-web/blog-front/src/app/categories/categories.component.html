@@ -1,14 +1,26 @@
-<h1 class="text-center">Categorias</h1>
-<div class="card-columns">
-  <div *ngFor="let category of categories">
-      <div class="card text-center">
-        <div class="card-body">
-          <h5 class="card-title">{{ category.name }}</h5>
-          <p class="card-text">{{ category.description }}</p>
-          <a class="btn btn-primary" [routerLink]="['/categories', category.id]">Acessar categoria</a>
-        </div>
+<div class="container">
+  <br>
+  <h1 class="text-center">Categorias</h1>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <a [routerLink]="['/new/category']" class="btn btn-success" >Adicionar Categoria</a>
       </div>
+    </div>
+  </div>
+  <br>
+  <div class="card-columns">
+    <div *ngFor="let category of categories">
+        <div class="card text-center" attr.id="category{{category.id}}">
+          <div class="card-body">
+            <h5 class="card-title">{{ category.name }}</h5>
+            <p class="card-text">{{ category.description }}</p>
+              <a class="btn btn-primary" [routerLink]="['/categories', category.id]">Acessar categoria</a>
+              <a class="btn btn-danger" (click)="deleteCategory(category.id)">Acessar categoria</a>
+          </div>
+        </div>
+    </div>
   </div>
 </div>
-
 
