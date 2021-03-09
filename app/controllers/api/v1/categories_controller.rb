@@ -7,7 +7,7 @@ class Api::V1::CategoriesController < Api::V1::ApiController
 
   def show
     category = Category.find(params[:id])
-    render json: { data: category }, status: :ok
+    render json: category, status: :ok
   end
 
   def create
