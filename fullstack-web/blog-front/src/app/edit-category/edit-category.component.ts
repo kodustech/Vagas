@@ -27,10 +27,10 @@ export class EditCategoryComponent implements OnInit {
       let nameErrors = error.error.data.name
       let descriptionErrors = error.error.data.description
       for(const error of nameErrors) {
-        alert(error)
+        alert('name ' + error)
       }
       for(const error of descriptionErrors) {
-        alert(error)
+        alert('description ' + error)
       }
     })
   }

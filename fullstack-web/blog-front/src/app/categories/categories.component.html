@@ -17,7 +17,7 @@
             <h5 class="card-title">{{ category.name }}</h5>
             <p class="card-text">{{ category.description }}</p>
               <a class="btn btn-primary" [routerLink]="['/categories', category.id]">Acessar categoria</a>
-              <a class="btn btn-danger" (click)="deleteCategory(category.id)">Acessar categoria</a>
+              <a class="btn btn-danger" (click)="deleteCategory(category.id)">Deletar categoria</a>
           </div>
         </div>
     </div>

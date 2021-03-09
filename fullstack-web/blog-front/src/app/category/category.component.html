@@ -13,6 +13,9 @@
       <div class="col-sm-5 col-md-12 col-12 pb-4">
         <h2>Posts</h2>
         <ul class="list-group">
+          <br>
+          <a class="btn btn-success" [routerLink]="['/categories/', category.id, 'new', 'post']">Criar post</a>
+          <br>
           <div *ngIf="posts.length; else noPosts">
             <div *ngFor="let post of posts">
               <li class="list-group-item" style="width: 100%">

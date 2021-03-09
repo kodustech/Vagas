@@ -1,0 +1,12 @@
+<div class="container">
+  <br>
+  <h1 class="text-center">Novo Post</h1>
+  <br>
+  <form [formGroup]="postForm" class="form-group">
+    titulo: <input formControlName="title" class="form-control" placeholder="titulo do post">
+    <br>
+    texto: <textarea rows="3" formControlName="text" class="form-control" placeholder="texto do post"></textarea>
+    <br>
+    <button type="submit" class="btn btn-success" (click)="createPost()">Submit</button>
+  </form>
+</div>

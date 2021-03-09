@@ -12,5 +12,10 @@ export class PostService {
     return this.http.get(environment.url_back + '/api/v1/posts/category/' + category_id)
   }
 
+  createPost(postParams: any, category_id: number): Observable<any> {
+    postParams.category_id = category_id
+    return this.http.post(environment.url_back + '/api/v1/posts', postParams)
+  }
+
   constructor(private http: HttpClient) { }
 }

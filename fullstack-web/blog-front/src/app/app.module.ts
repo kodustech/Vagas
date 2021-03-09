@@ -9,6 +9,7 @@ import { CategoryComponent } from './category/category.component';
 import { NewCategoryComponent } from './new-category/new-category.component';
 import {ReactiveFormsModule} from "@angular/forms";
 import { EditCategoryComponent } from './edit-category/edit-category.component';
+import { NewPostComponent } from './new-post/new-post.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { EditCategoryComponent } from './edit-category/edit-category.component';
     CategoryComponent,
     NewCategoryComponent,
     EditCategoryComponent,
+    NewPostComponent,
   ],
   imports: [
     BrowserModule,
