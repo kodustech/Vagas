@@ -25,7 +25,10 @@
                     <p class="word-wrap">{{post.text}}</p>
                   </div>
                 </div>
-                <a class="btn btn-danger" (click)="deletePost(post.id)" >Deletar post</a>
+                <div class="row">
+                  <a class="btn btn-danger" (click)="deletePost(post.id)" >Deletar post</a>
+                  <a class="btn btn-warning" [routerLink]="['/categories/', category.id, 'edit', 'post', post.id]" >Editar post</a>
+                </div>
               </li>
               <br>
             </div>

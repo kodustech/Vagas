@@ -10,6 +10,7 @@ import { NewCategoryComponent } from './new-category/new-category.component';
 import {ReactiveFormsModule} from "@angular/forms";
 import { EditCategoryComponent } from './edit-category/edit-category.component';
 import { NewPostComponent } from './new-post/new-post.component';
+import { EditPostComponent } from './edit-post/edit-post.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { NewPostComponent } from './new-post/new-post.component';
     NewCategoryComponent,
     EditCategoryComponent,
     NewPostComponent,
+    EditPostComponent,
   ],
   imports: [
     BrowserModule,

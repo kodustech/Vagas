@@ -17,7 +17,7 @@ export class NewPostComponent implements OnInit {
 
   createPost() {
     return this.postService.createPost(this.postForm.value, this.category_id).subscribe(resp => {
-      alert("Categoria criada com sucesso")
+      alert("Post criada com sucesso")
       this.router.navigate(['/categories/' + this.category_id]);
     }, error => {
       let titleErrors = error.error.data.title

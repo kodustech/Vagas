@@ -21,5 +21,9 @@ export class PostService {
     return this.http.delete(environment.url_back + '/api/v1/posts/' + id)
   }
 
+  editPost(postParams: object, id: number) {
+    return this.http.put(environment.url_back + '/api/v1/posts/' + id, postParams)
+  }
+
   constructor(private http: HttpClient) { }
 }
