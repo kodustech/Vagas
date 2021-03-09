@@ -1,1 +1,7 @@
-Post.create!(category: Category.last, title: 'lorem', body: 'loremlorem', posted_at: '2021-03-07 20:01:19')
+5.times do |i|
+  Category.create!(name: "Categoria#{i}")
+end
+
+5.times do |i|
+  Post.create!(title: "Título ..#{i}", body: 'Sobre...', posted_at: DateTime.now + 1.day, category_id: rand(1..5))
+end

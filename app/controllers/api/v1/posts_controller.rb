@@ -1,11 +1,9 @@
-class Api::V1::PostsController < ApplicationController
-
+class Api::V1::PostsController < Api::V1::ApiController
   before_action :set_post, only: %i[show update destroy]
 
   def index
     @posts = Post.filter(filtering_params).sorted_by_desc
     render json: @posts
-    
   end
 
   def show
@@ -16,18 +14,18 @@ class Api::V1::PostsController < ApplicationController
   def create
     post = Post.new(post_params)
     if post.save
-      render json: post , status: :created
+      render json: post, status: :created
     else
-      render json: post.errors , status: :unprocessable_entity
+      render json: post.errors, status: :unprocessable_entity
     end
   end
 
   def update
     post = Post.find(params[:id])
     if post.update_attributes(post_params)
-      render json: post , status: :ok
+      render json: post, status: :ok
     else
-      render json: post.errors , status: :unprocessable_entity
+      render json: post.errors, status: :unprocessable_entity
     end
   end
 
@@ -41,7 +39,7 @@ class Api::V1::PostsController < ApplicationController
   end
 
   private
-  
+
   def set_post
     post = Post.find(params[:id])
   end
