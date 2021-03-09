@@ -9,6 +9,8 @@ gem 'rails', '~> 6.0.3', '>= 6.0.3.5'
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
+
+
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.7'
 # Use Redis adapter to run Action Cable in production
@@ -32,6 +34,7 @@ end
 
 group :development do
   gem 'rubocop', require: false
+  gem 'faker'
 
   gem 'listen', '~> 3.2'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
