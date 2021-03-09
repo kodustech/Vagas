@@ -78,3 +78,4 @@ pickle-email-*.html
 *.old
 *.jar
 xerial*.*
+bootsnap/
