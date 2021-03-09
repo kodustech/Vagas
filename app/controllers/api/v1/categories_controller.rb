@@ -1,8 +1,6 @@
-module Api
-  module V1
-    class CategoriesController < ApplicationController
+class Api::V1::CategoriesController < ApplicationController
 
-      def index
+  def index
         @categories = Category.all.sorted_by_desc
 
         render json: @categories
@@ -46,5 +44,3 @@ module Api
         params.permit(:name)
       end
     end
-  end
-end
