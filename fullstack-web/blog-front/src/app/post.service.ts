@@ -17,5 +17,9 @@ export class PostService {
     return this.http.post(environment.url_back + '/api/v1/posts', postParams)
   }
 
+  deletePost(id: number): Observable<any> {
+    return this.http.delete(environment.url_back + '/api/v1/posts/' + id)
+  }
+
   constructor(private http: HttpClient) { }
 }

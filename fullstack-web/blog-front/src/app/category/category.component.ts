@@ -13,6 +13,16 @@ export class CategoryComponent implements OnInit {
   category: any = null
   posts: any = []
 
+
+  deletePost(id: number) {
+    this.postService.deletePost(id).subscribe(resp => {
+      alert(resp.message);
+      window.location.reload();
+    }, error => {
+      alert(error.message);
+    })
+  }
+
   constructor(
     private activatedRoute: ActivatedRoute,
     private categoryService: CategoryService,
@@ -42,5 +52,6 @@ export class CategoryComponent implements OnInit {
     });
 
   }
+
 
 }

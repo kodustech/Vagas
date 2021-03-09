@@ -5165,3 +5165,232 @@ Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.9ms | Allocations: 905)
 Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.8ms | Allocations: 1701)
 
 
+Started GET "/api/v1/categories/47" for ::1 at 2021-03-09 14:16:20 -0300
+Started GET "/api/v1/posts/category/47" for ::1 at 2021-03-09 14:16:20 -0300
+Processing by Api::V1::CategoriesController#show as HTML
+  Parameters: {"id"=>"47"}
+Processing by Api::V1::PostsController#recoverPostsByCategory as HTML
+  [1m[36mCategory Load (1.0ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 47 LIMIT 1[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:45:in `set_category'
+  Parameters: {"category_id"=>"47"}
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 1.0ms | Allocations: 992)
+
+
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` WHERE `posts`.`category_id` = 47[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:41:in `recoverPostsByCategory'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.4ms | Allocations: 1090)
+
+
+Started GET "/api/v1/categories" for ::1 at 2021-03-09 14:16:23 -0300
+Processing by Api::V1::CategoriesController#index as HTML
+  [1m[36mCategory Load (0.9ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:9:in `index'
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.9ms | Allocations: 4547)
+
+
+Started GET "/api/v1/categories/47" for ::1 at 2021-03-09 14:16:26 -0300
+Started GET "/api/v1/posts/category/47" for ::1 at 2021-03-09 14:16:26 -0300
+Processing by Api::V1::CategoriesController#show as HTML
+Processing by Api::V1::PostsController#recoverPostsByCategory as HTML
+  Parameters: {"id"=>"47"}
+  Parameters: {"category_id"=>"47"}
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 47 LIMIT 1[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:45:in `set_category'
+  [1m[36mPost Load (1.3ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` WHERE `posts`.`category_id` = 47[0m
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.4ms | Allocations: 890)
+
+
+  ↳ app/controllers/api/v1/posts_controller.rb:41:in `recoverPostsByCategory'
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 1.3ms | Allocations: 1747)
+
+
+Started GET "/api/v1/posts/category/47" for ::1 at 2021-03-09 14:18:56 -0300
+Started GET "/api/v1/categories/47" for ::1 at 2021-03-09 14:18:56 -0300
+Processing by Api::V1::PostsController#recoverPostsByCategory as HTML
+Processing by Api::V1::CategoriesController#show as HTML
+  Parameters: {"id"=>"47"}
+  Parameters: {"category_id"=>"47"}
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 47 LIMIT 1[0m
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` WHERE `posts`.`category_id` = 47[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:45:in `set_category'
+  ↳ app/controllers/api/v1/posts_controller.rb:41:in `recoverPostsByCategory'
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.4ms | Allocations: 1326)
+
+
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.3ms | Allocations: 1520)
+
+
+Started GET "/api/v1/categories/47" for ::1 at 2021-03-09 14:19:23 -0300
+Started GET "/api/v1/posts/category/47" for ::1 at 2021-03-09 14:19:23 -0300
+Processing by Api::V1::CategoriesController#show as HTML
+  Parameters: {"id"=>"47"}
+Processing by Api::V1::PostsController#recoverPostsByCategory as HTML
+  Parameters: {"category_id"=>"47"}
+  [1m[36mCategory Load (1.2ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 47 LIMIT 1[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:45:in `set_category'
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 1.2ms | Allocations: 1191)
+
+
+  [1m[36mPost Load (1.6ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` WHERE `posts`.`category_id` = 47[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:41:in `recoverPostsByCategory'
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 1.6ms | Allocations: 1701)
+
+
+Started GET "/api/v1/categories/47" for ::1 at 2021-03-09 14:22:01 -0300
+Started GET "/api/v1/posts/category/47" for ::1 at 2021-03-09 14:22:01 -0300
+Processing by Api::V1::CategoriesController#show as HTML
+  Parameters: {"id"=>"47"}
+Processing by Api::V1::PostsController#recoverPostsByCategory as HTML
+  Parameters: {"category_id"=>"47"}
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 47 LIMIT 1[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:45:in `set_category'
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.8ms | Allocations: 1192)
+
+
+  [1m[36mPost Load (1.5ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` WHERE `posts`.`category_id` = 47[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:41:in `recoverPostsByCategory'
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 1.5ms | Allocations: 1701)
+
+
+Started GET "/api/v1/categories/47" for ::1 at 2021-03-09 14:25:32 -0300
+Started GET "/api/v1/posts/category/47" for ::1 at 2021-03-09 14:25:32 -0300
+Processing by Api::V1::PostsController#recoverPostsByCategory as HTML
+Processing by Api::V1::CategoriesController#show as HTML
+  Parameters: {"category_id"=>"47"}
+  Parameters: {"id"=>"47"}
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` WHERE `posts`.`category_id` = 47[0m
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 47 LIMIT 1[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:41:in `recoverPostsByCategory'
+  ↳ app/controllers/api/v1/categories_controller.rb:45:in `set_category'
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.4ms | Allocations: 1264)
+
+
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.4ms | Allocations: 1397)
+
+
+Started GET "/api/v1/categories/47" for ::1 at 2021-03-09 14:26:06 -0300
+Started GET "/api/v1/posts/category/47" for ::1 at 2021-03-09 14:26:06 -0300
+Processing by Api::V1::CategoriesController#show as HTML
+  Parameters: {"id"=>"47"}
+Processing by Api::V1::PostsController#recoverPostsByCategory as HTML
+  Parameters: {"category_id"=>"47"}
+  [1m[36mCategory Load (1.0ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 47 LIMIT 1[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:45:in `set_category'
+  [1m[36mPost Load (1.2ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` WHERE `posts`.`category_id` = 47[0m
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 1.0ms | Allocations: 1211)
+
+
+  ↳ app/controllers/api/v1/posts_controller.rb:41:in `recoverPostsByCategory'
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 1.2ms | Allocations: 1701)
+
+
+Started GET "/api/v1/categories/47" for ::1 at 2021-03-09 14:26:22 -0300
+Started GET "/api/v1/posts/category/47" for ::1 at 2021-03-09 14:26:22 -0300
+Processing by Api::V1::CategoriesController#show as HTML
+Processing by Api::V1::PostsController#recoverPostsByCategory as HTML
+  Parameters: {"id"=>"47"}
+  Parameters: {"category_id"=>"47"}
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 47 LIMIT 1[0m
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` WHERE `posts`.`category_id` = 47[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:45:in `set_category'
+  ↳ app/controllers/api/v1/posts_controller.rb:41:in `recoverPostsByCategory'
+Completed 200 OK in 5ms (Views: 0.8ms | ActiveRecord: 0.5ms | Allocations: 1327)
+
+
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.5ms | Allocations: 1521)
+
+
+Started GET "/api/v1/categories/47" for ::1 at 2021-03-09 14:26:31 -0300
+Started GET "/api/v1/posts/category/47" for ::1 at 2021-03-09 14:26:31 -0300
+Processing by Api::V1::PostsController#recoverPostsByCategory as HTML
+Processing by Api::V1::CategoriesController#show as HTML
+  Parameters: {"category_id"=>"47"}
+  Parameters: {"id"=>"47"}
+  [1m[36mPost Load (0.8ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` WHERE `posts`.`category_id` = 47[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:41:in `recoverPostsByCategory'
+  [1m[36mCategory Load (1.2ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 47 LIMIT 1[0m
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.8ms | Allocations: 950)
+
+
+  ↳ app/controllers/api/v1/categories_controller.rb:45:in `set_category'
+Completed 200 OK in 6ms (Views: 0.7ms | ActiveRecord: 1.2ms | Allocations: 1624)
+
+
+Started GET "/api/v1/categories/47" for ::1 at 2021-03-09 14:26:32 -0300
+Started GET "/api/v1/posts/category/47" for ::1 at 2021-03-09 14:26:32 -0300
+Processing by Api::V1::CategoriesController#show as HTML
+  Parameters: {"id"=>"47"}
+Processing by Api::V1::PostsController#recoverPostsByCategory as HTML
+  Parameters: {"category_id"=>"47"}
+  [1m[36mCategory Load (0.9ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 47 LIMIT 1[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:45:in `set_category'
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.9ms | Allocations: 883)
+
+
+  [1m[36mPost Load (2.1ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` WHERE `posts`.`category_id` = 47[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:41:in `recoverPostsByCategory'
+Completed 200 OK in 7ms (Views: 3.9ms | ActiveRecord: 2.1ms | Allocations: 1701)
+
+
+Started GET "/api/v1/categories/47" for ::1 at 2021-03-09 14:26:46 -0300
+Started GET "/api/v1/posts/category/47" for ::1 at 2021-03-09 14:26:46 -0300
+Processing by Api::V1::PostsController#recoverPostsByCategory as HTML
+  Parameters: {"category_id"=>"47"}
+Processing by Api::V1::CategoriesController#show as HTML
+  Parameters: {"id"=>"47"}
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` WHERE `posts`.`category_id` = 47[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:41:in `recoverPostsByCategory'
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.4ms | Allocations: 900)
+
+
+  [1m[36mCategory Load (0.9ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 47 LIMIT 1[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:45:in `set_category'
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 0.9ms | Allocations: 1578)
+
+
+Started GET "/api/v1/categories/47" for ::1 at 2021-03-09 14:26:48 -0300
+Started GET "/api/v1/posts/category/47" for ::1 at 2021-03-09 14:26:48 -0300
+Processing by Api::V1::CategoriesController#show as HTML
+  Parameters: {"id"=>"47"}
+Processing by Api::V1::PostsController#recoverPostsByCategory as HTML
+  Parameters: {"category_id"=>"47"}
+  [1m[36mCategory Load (1.0ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 47 LIMIT 1[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:45:in `set_category'
+  [1m[36mPost Load (0.8ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` WHERE `posts`.`category_id` = 47[0m
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 1.0ms | Allocations: 1211)
+
+
+  ↳ app/controllers/api/v1/posts_controller.rb:41:in `recoverPostsByCategory'
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 0.8ms | Allocations: 1701)
+
+
+Started DELETE "/api/v1/posts/46" for ::1 at 2021-03-09 14:26:52 -0300
+Processing by Api::V1::PostsController#destroy as HTML
+  Parameters: {"id"=>"46"}
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 46 LIMIT 1[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:53:in `set_post'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:18:in `destroy'
+  [1m[36mPost Destroy (0.4ms)[0m  [1m[31mDELETE FROM `posts` WHERE `posts`.`id` = 46[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:18:in `destroy'
+  [1m[36mTRANSACTION (389.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:18:in `destroy'
+Completed 200 OK in 397ms (Views: 0.5ms | ActiveRecord: 390.3ms | Allocations: 2082)
+
+
+Started GET "/api/v1/categories/47" for ::1 at 2021-03-09 14:26:55 -0300
+Started GET "/api/v1/posts/category/47" for ::1 at 2021-03-09 14:26:55 -0300
+Processing by Api::V1::CategoriesController#show as HTML
+Processing by Api::V1::PostsController#recoverPostsByCategory as HTML
+  Parameters: {"id"=>"47"}
+  Parameters: {"category_id"=>"47"}
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 47 LIMIT 1[0m
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` WHERE `posts`.`category_id` = 47[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:45:in `set_category'
+  ↳ app/controllers/api/v1/posts_controller.rb:41:in `recoverPostsByCategory'
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 0.5ms | Allocations: 1330)
+
+
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.5ms | Allocations: 1411)
+
+
