@@ -1,0 +1,37 @@
+import { Component, OnInit } from '@angular/core';
+import {Observable} from "rxjs";
+import {CategoryService} from "../category.service";
+
+
+
+interface Category {
+  name: string;
+  description: string;
+}
+
+@Component({
+  selector: 'app-categories',
+  templateUrl: './categories.component.html',
+  styleUrls: ['./categories.component.css']
+})
+export class CategoriesComponent implements OnInit {
+
+  categories: any = []
+
+  constructor(
+    private categoryService: CategoryService
+  ) { }
+
+  ngOnInit(): void {
+    this.categoryService.getCategories().subscribe(resp => {
+      for (const d of (resp.data as any)) {
+        this.categories.push({
+          id: d.id,
+          name: d.name,
+          description: d.description
+        });
+      }
+    });
+  }
+
+}

@@ -1,0 +1,14 @@
+<h1 class="text-center">Categorias</h1>
+<div class="card-columns">
+  <div *ngFor="let category of categories">
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">{{ category.name }}</h5>
+          <p class="card-text">{{ category.description }}</p>
+          <a class="btn btn-primary" [routerLink]="['/categories', category.id]">Acessar categoria</a>
+        </div>
+      </div>
+  </div>
+</div>
+
+
