@@ -3726,3 +3726,197 @@ Processing by Api::V1::CategoriesController#show as HTML
 Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.4ms | Allocations: 665)
 
 
+Started DELETE "/api/v1/categories/45" for ::1 at 2021-03-09 10:58:51 -0300
+Processing by Api::V1::CategoriesController#destroy as HTML
+  Parameters: {"id"=>"45"}
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 45 LIMIT 1[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:45:in `set_category'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:17:in `destroy'
+  [1m[36mPost Destroy (0.7ms)[0m  [1m[31mDELETE FROM `posts` WHERE `posts`.`category_id` = 45[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:17:in `destroy'
+  [1m[36mCategory Destroy (0.4ms)[0m  [1m[31mDELETE FROM `categories` WHERE `categories`.`id` = 45[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:17:in `destroy'
+  [1m[36mTRANSACTION (240.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:17:in `destroy'
+Completed 200 OK in 261ms (Views: 0.5ms | ActiveRecord: 242.0ms | Allocations: 9485)
+
+
+Started GET "/api/v1/categories" for ::1 at 2021-03-09 10:59:02 -0300
+Processing by Api::V1::CategoriesController#index as HTML
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:9:in `index'
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.5ms | Allocations: 4777)
+
+
+Started DELETE "/api/v1/categories/44" for ::1 at 2021-03-09 10:59:07 -0300
+Processing by Api::V1::CategoriesController#destroy as HTML
+  Parameters: {"id"=>"44"}
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 44 LIMIT 1[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:45:in `set_category'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:17:in `destroy'
+  [1m[36mPost Destroy (0.3ms)[0m  [1m[31mDELETE FROM `posts` WHERE `posts`.`category_id` = 44[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:17:in `destroy'
+  [1m[36mCategory Destroy (0.3ms)[0m  [1m[31mDELETE FROM `categories` WHERE `categories`.`id` = 44[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:17:in `destroy'
+  [1m[36mTRANSACTION (248.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:17:in `destroy'
+Completed 200 OK in 258ms (Views: 0.7ms | ActiveRecord: 249.5ms | Allocations: 2672)
+
+
+Started GET "/api/v1/categories" for ::1 at 2021-03-09 11:06:07 -0300
+Processing by Api::V1::CategoriesController#index as HTML
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:9:in `index'
+Completed 200 OK in 14ms (Views: 11.1ms | ActiveRecord: 1.2ms | Allocations: 4750)
+
+
+Started GET "/api/v1/categories" for ::1 at 2021-03-09 11:06:22 -0300
+Processing by Api::V1::CategoriesController#index as HTML
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:9:in `index'
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.5ms | Allocations: 4639)
+
+
+Started GET "/api/v1/categories" for ::1 at 2021-03-09 11:06:25 -0300
+Processing by Api::V1::CategoriesController#index as HTML
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:9:in `index'
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.6ms | Allocations: 4639)
+
+
+Started GET "/api/v1/categories" for ::1 at 2021-03-09 11:06:28 -0300
+Processing by Api::V1::CategoriesController#index as HTML
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:9:in `index'
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.6ms | Allocations: 4639)
+
+
+Started DELETE "/api/v1/categories/43" for ::1 at 2021-03-09 11:06:30 -0300
+Processing by Api::V1::CategoriesController#destroy as HTML
+  Parameters: {"id"=>"43"}
+  [1m[36mCategory Load (0.9ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 43 LIMIT 1[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:45:in `set_category'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:17:in `destroy'
+  [1m[36mPost Destroy (0.6ms)[0m  [1m[31mDELETE FROM `posts` WHERE `posts`.`category_id` = 43[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:17:in `destroy'
+  [1m[36mCategory Destroy (0.6ms)[0m  [1m[31mDELETE FROM `categories` WHERE `categories`.`id` = 43[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:17:in `destroy'
+  [1m[36mTRANSACTION (247.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:17:in `destroy'
+Completed 200 OK in 266ms (Views: 0.6ms | ActiveRecord: 250.2ms | Allocations: 2672)
+
+
+Started GET "/api/v1/categories" for ::1 at 2021-03-09 11:06:33 -0300
+Processing by Api::V1::CategoriesController#index as HTML
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:9:in `index'
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.4ms | Allocations: 4547)
+
+
+Started GET "/api/v1/categories" for ::1 at 2021-03-09 11:07:01 -0300
+Processing by Api::V1::CategoriesController#index as HTML
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:9:in `index'
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.3ms | Allocations: 4547)
+
+
+Started GET "/api/v1/categories" for ::1 at 2021-03-09 11:08:01 -0300
+Processing by Api::V1::CategoriesController#index as HTML
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:9:in `index'
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.4ms | Allocations: 4547)
+
+
+Started GET "/api/v1/categories" for ::1 at 2021-03-09 11:08:06 -0300
+Processing by Api::V1::CategoriesController#index as HTML
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:9:in `index'
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.3ms | Allocations: 4548)
+
+
+Started GET "/api/v1/categories" for ::1 at 2021-03-09 11:11:51 -0300
+Processing by Api::V1::CategoriesController#index as HTML
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:9:in `index'
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.5ms | Allocations: 4547)
+
+
+Started GET "/api/v1/categories" for ::1 at 2021-03-09 11:14:41 -0300
+Processing by Api::V1::CategoriesController#index as HTML
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:9:in `index'
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.4ms | Allocations: 4547)
+
+
+Started GET "/api/v1/posts/category/42" for ::1 at 2021-03-09 11:14:43 -0300
+Started GET "/api/v1/categories/42" for ::1 at 2021-03-09 11:14:43 -0300
+Processing by Api::V1::CategoriesController#show as HTML
+  Parameters: {"id"=>"42"}
+  [1m[36mCategory Load (0.7ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 42 LIMIT 1[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:45:in `set_category'
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.7ms | Allocations: 876)
+
+
+Processing by Api::V1::PostsController#recoverPostsByCategory as HTML
+  Parameters: {"category_id"=>"42"}
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` WHERE `posts`.`category_id` = 42[0m
+  ↳ app/controllers/api/v1/posts_controller.rb:41:in `recoverPostsByCategory'
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.5ms | Allocations: 3201)
+
+
+Started GET "/api/v1/categories" for ::1 at 2021-03-09 11:14:45 -0300
+Processing by Api::V1::CategoriesController#index as HTML
+  [1m[36mCategory Load (1.2ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:9:in `index'
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 1.2ms | Allocations: 4547)
+
+
+Started DELETE "/api/v1/categories/42" for ::1 at 2021-03-09 11:14:46 -0300
+Processing by Api::V1::CategoriesController#destroy as HTML
+  Parameters: {"id"=>"42"}
+  [1m[36mCategory Load (0.9ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 42 LIMIT 1[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:45:in `set_category'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:17:in `destroy'
+  [1m[36mPost Destroy (0.8ms)[0m  [1m[31mDELETE FROM `posts` WHERE `posts`.`category_id` = 42[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:17:in `destroy'
+  [1m[36mCategory Destroy (0.5ms)[0m  [1m[31mDELETE FROM `categories` WHERE `categories`.`id` = 42[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:17:in `destroy'
+  [1m[36mTRANSACTION (302.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:17:in `destroy'
+Completed 200 OK in 317ms (Views: 0.5ms | ActiveRecord: 305.0ms | Allocations: 2669)
+
+
+Started GET "/api/v1/categories" for ::1 at 2021-03-09 11:14:48 -0300
+Processing by Api::V1::CategoriesController#index as HTML
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:9:in `index'
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.3ms | Allocations: 4457)
+
+
+Started DELETE "/api/v1/categories/41" for ::1 at 2021-03-09 11:14:50 -0300
+Processing by Api::V1::CategoriesController#destroy as HTML
+  Parameters: {"id"=>"41"}
+  [1m[36mCategory Load (1.0ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 41 LIMIT 1[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:45:in `set_category'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:17:in `destroy'
+  [1m[36mPost Destroy (0.8ms)[0m  [1m[31mDELETE FROM `posts` WHERE `posts`.`category_id` = 41[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:17:in `destroy'
+  [1m[36mCategory Destroy (0.6ms)[0m  [1m[31mDELETE FROM `categories` WHERE `categories`.`id` = 41[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:17:in `destroy'
+  [1m[36mTRANSACTION (514.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:17:in `destroy'
+Completed 200 OK in 529ms (Views: 0.5ms | ActiveRecord: 516.7ms | Allocations: 2669)
+
+
+Started GET "/api/v1/categories" for ::1 at 2021-03-09 11:14:52 -0300
+Processing by Api::V1::CategoriesController#index as HTML
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/categories_controller.rb:9:in `index'
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.4ms | Allocations: 4366)
+
+
