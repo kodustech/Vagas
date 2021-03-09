@@ -37,6 +37,8 @@ export class CategoryComponent implements OnInit {
           created_at: d.created_at
         })
       }
+    },error => {
+      alert(error.message);
     });
 
   }

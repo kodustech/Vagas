@@ -1,1 +1,12 @@
-<p>new-category works!</p>
+<div class="container">
+  <br>
+    <h1 class="text-center">Nova Categoria</h1>
+  <br>
+  <form [formGroup]="categoryForm" class="form-group">
+    Nome: <input formControlName="name" class="form-control" placeholder="nome da category">
+    <br>
+    Descrição: <input formControlName="description" class="form-control" placeholder="Breve descrição">
+    <br>
+    <button type="submit" class="btn btn-success" (click)="createCategory()">Submit</button>
+  </form>
+</div>

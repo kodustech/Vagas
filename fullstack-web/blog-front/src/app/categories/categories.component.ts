@@ -22,6 +22,8 @@ export class CategoriesComponent implements OnInit {
     this.categoryService.deleteCategory(id).subscribe(resp => {
       alert(resp.message);
       window.location.reload();
+    }, error => {
+      alert(error.message);
     })
   }
 
@@ -38,6 +40,8 @@ export class CategoriesComponent implements OnInit {
           description: d.description
         });
       }
+    },error => {
+      alert(error.message);
     });
   }
 

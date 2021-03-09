@@ -20,6 +20,10 @@ export class CategoryService {
     return this.http.delete(environment.url_back + '/api/v1/categories/' + id)
   }
 
+  createCategory(categoryParams: object): Observable<any> {
+    return this.http.post(environment.url_back + '/api/v1/categories', categoryParams)
+  }
+
   constructor(
     private http: HttpClient
   ) {
