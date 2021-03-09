@@ -7,6 +7,8 @@
 
 O Sistema se encontra no heroku, já com alguns dados adicionados.
 
+### Listagem dos Endpoints
+
 1. Listar Posts - curl -X GET \
   https://challegejr-backend.herokuapp.com/api/v1/posts \
   -H 'cache-control: no-cache' \
