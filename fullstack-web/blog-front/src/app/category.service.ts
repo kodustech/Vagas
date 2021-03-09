@@ -24,6 +24,10 @@ export class CategoryService {
     return this.http.post(environment.url_back + '/api/v1/categories', categoryParams)
   }
 
+  editCategory(categoryParams: object, id: number): Observable<any> {
+    return this.http.put(environment.url_back + '/api/v1/categories/' + id, categoryParams)
+  }
+
   constructor(
     private http: HttpClient
   ) {

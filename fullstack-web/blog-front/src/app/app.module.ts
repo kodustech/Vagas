@@ -8,6 +8,7 @@ import {HttpClientModule} from "@angular/common/http";
 import { CategoryComponent } from './category/category.component';
 import { NewCategoryComponent } from './new-category/new-category.component';
 import {ReactiveFormsModule} from "@angular/forms";
+import { EditCategoryComponent } from './edit-category/edit-category.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import {ReactiveFormsModule} from "@angular/forms";
     CategoriesComponent,
     CategoryComponent,
     NewCategoryComponent,
+    EditCategoryComponent,
   ],
   imports: [
     BrowserModule,
