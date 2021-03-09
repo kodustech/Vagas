@@ -9,29 +9,9 @@ O Sistema se encontra no heroku, já com alguns dados adicionados.
 
 ### Listagem dos Endpoints
 
-1. Listar Posts - curl -X GET \
-  https://challegejr-backend.herokuapp.com/api/v1/posts \
-  -H 'cache-control: no-cache' \
-  -H 'content-type: application/json' \
-  -H 'postman-token: 05321a90-cda5-5869-b3a2-61013d3f7db7' \
-  -d '{
-   "title": "LoremQuatro",
-   "body":"Loremipsulisulm",
-   "posted_at": "2021-03-08 14:10:41",
-   "category_id":"2"
-}'
+1. Listar Posts - https://challegejr-backend.herokuapp.com/api/v1/posts"
 
-2. Exibir post - curl -X GET \
-  https://challegejr-backend.herokuapp.com/api/v1/posts/3 \
-  -H 'cache-control: no-cache' \
-  -H 'content-type: application/json' \
-  -H 'postman-token: e1aea488-49f7-a152-2f32-434c55f45f50' \
-  -d '{
-   "title": "LoremQuatro",
-   "body":"Loremipsulisulm",
-   "posted_at": "2021-03-08 14:10:41",
-   "category_id":"2"
-}'
+2. Exibir post - https://challegejr-backend.herokuapp.com/api/v1/posts/:id
 
 3. Criar post - curl -X POST \
   https://challegejr-backend.herokuapp.com/api/v1/posts \
@@ -68,28 +48,10 @@ O Sistema se encontra no heroku, já com alguns dados adicionados.
 }'
 
 
-6. Listar categories - curl -X GET \
-  https://challegejr-backend.herokuapp.com/api/v1/categories \
-  -H 'cache-control: no-cache' \
-  -H 'content-type: application/json' \
-  -H 'postman-token: 591a119b-68f3-6134-0b00-c8a711bf2171' \
-  -d '{
-   "title": "LoremQuatro",
-   "body":"Loremipsulisulm",
-   "posted_at": "2021-03-08 14:10:41",
-   "category_id":"2"
-}'
-7. Exibir category - curl -X GET \
-  https://challegejr-backend.herokuapp.com/api/v1/categories/1 \
-  -H 'cache-control: no-cache' \
-  -H 'content-type: application/json' \
-  -H 'postman-token: 8f3cbae2-99b8-acdf-1f6e-c9261996a35d' \
-  -d '{
-   "title": "LoremQuatro",
-   "body":"Loremipsulisulm",
-   "posted_at": "2021-03-08 14:10:41",
-   "category_id":"2"
-}'
+6. Listar categories - https://challegejr-backend.herokuapp.com/api/v1/categories
+
+7. Exibir category - https://challegejr-backend.herokuapp.com/api/v1/categories/:id
+
 8. Criar category - curl -X POST \
   https://challegejr-backend.herokuapp.com/api/v1/categories \
   -H 'cache-control: no-cache' \
