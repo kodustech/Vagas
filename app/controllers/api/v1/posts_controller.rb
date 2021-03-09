@@ -1,33 +1,33 @@
 class Api::V1::PostsController < ApplicationController
 
-  before_action :set_post, only: [:show, :edit, :destroy]
+  before_action :set_post, only: %i[show update destroy]
 
   def index
-
-    @posts = Post.all
-    render json: @posts, status: 200
+    @posts = Post.filter(filtering_params).sorted_by_desc
+    render json: @posts
+    
   end
 
   def show
     post = Post.find(params[:id])
-    render json: { data: post }, status: :ok
+    render json: post, status: :ok
   end
 
   def create
     post = Post.new(post_params)
     if post.save
-      render json: { status: 'Success!', message: 'Saved Post', data: post }, status: :created
+      render json: post , status: :created
     else
-      render json: { data: post.errors }, status: :unprocessable_entity
+      render json: post.errors , status: :unprocessable_entity
     end
   end
 
   def update
     post = Post.find(params[:id])
     if post.update_attributes(post_params)
-      render json: { status: 'Success!', message: 'Updated Post', data: post }, status: :ok
+      render json: post , status: :ok
     else
-      render json: { data: post.errors }, status: :unprocessable_entity
+      render json: post.errors , status: :unprocessable_entity
     end
   end
 
@@ -45,9 +45,9 @@ class Api::V1::PostsController < ApplicationController
   def set_post
     post = Post.find(params[:id])
   end
-  
-  def filtering_params(params)
-    params.slice(:category)
+
+  def filtering_params
+    params.slice(:category_name, :category_id, :posted_after, :posted_before)
   end
 
   def post_params
