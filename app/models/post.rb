@@ -1,6 +1,10 @@
 class Post < ApplicationRecord
   include Filterable
-  belongs_to :category
+
+  belongs_to :category, optional: true
+
+  validates_presence_of :title, :body
+
   scope :sorted_by_desc, -> { order('created_at DESC') }
 
   scope :filter_by_category_name, ->(name) { joins(:category).where("categories.name ILIKE '%#{name}%'") }
