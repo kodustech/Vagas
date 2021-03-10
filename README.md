@@ -1,49 +1,141 @@
-# Quem somos
-A ez.devs é uma empresa de tecnologia que acreditam que pessoas são o grande diferencial competitivos das empresas. 
-Nós somos apaixonados por Javascript e ajudamos clientes (desde startups até grandes empresas) a atingirem resultados extraordinários com seus produtos digitais.
+## Teste: desafio Back-end
 
-# Cultura
- Um time, uma cultura, uma missão, nós acreditamos que a cultura cria organizações que movem o mundo.
- Aqui nós fazemos questão de ter no time, pessoas quem amam o que fazem.
+- Banco de Dados: Postgresql
+- Ruby Version: Ruby 2.6.1p3
+- Rails Version: Rails 6.0.3.5
+- Postman 
 
- Conheça nossa cultura e o que as pessoas com quem trabalhamos pensam sobre a [ez.devs](https://ezdevs.com.br/vagas/)
+O Sistema se encontra no heroku, já com alguns dados adicionados.
+
+### Listagem dos Endpoints
+
+1. Listar Posts - https://challegejr-backend.herokuapp.com/api/v1/posts"
+
+2. Exibir post - https://challegejr-backend.herokuapp.com/api/v1/posts/:id
+
+3. Criar post - curl -X POST \
+  https://challegejr-backend.herokuapp.com/api/v1/posts \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'postman-token: 71375b95-129c-1326-be60-7ff3ad7795fc' \
+  -d '{
+   "title": "Lorem9",
+   "body":"Loremipsulisulm",
+   "posted_at": "2021-03-08 14:10:41",
+   "category_id":"2"
+}'
+4. Atualizar post - curl -X PUT \
+  https://challegejr-backend.herokuapp.com/api/v1/posts/4 \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'postman-token: 95f06510-6737-393b-c7b3-e5578cd32e0c' \
+  -d '{
+   "title": "LoremQuatro",
+   "body":"Loremipsulisulm",
+   "posted_at": "2021-03-08 14:10:41",
+   "category_id":"2"
+}'
+5. Deletar post - curl -X DELETE \
+  https://challegejr-backend.herokuapp.com/api/v1/posts/4 \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'postman-token: 9e60f8ce-6189-1be8-3542-e1d182b79be8' \
+  -d '{
+   "title": "LoremQuatro",
+   "body":"Loremipsulisulm",
+   "posted_at": "2021-03-08 14:10:41",
+   "category_id":"2"
+}'
 
 
-# Algumas das tecnologias que utilizamos
-JavaScript, Vue.js, Angular, React, React Native, Flutter, Ionic, Node.js, .Net Core, MongoDB, MySql, Graphql.
- 
+6. Listar categories - https://challegejr-backend.herokuapp.com/api/v1/categories
 
-## Observação
-Mesmo não tendo vagas abertas, sinta-se a vontade para realizar os testes, iremos armazenar em nosso banco de talentos, sempre tentamos retornar com feedback o mais rápido possível, gostamos muito de colaborar com o crescimento das pessoas.
+7. Exibir category - https://challegejr-backend.herokuapp.com/api/v1/categories/:id
 
-Quando enviar o teste é interessante você colocar uma descrição do que tentou fazer e no que teve dificuldades, e caso queira adicionar algo caso sinta-se a vontade, só nos explique o motivo.
+8. Criar category - curl -X POST \
+  https://challegejr-backend.herokuapp.com/api/v1/categories \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'postman-token: 749526e1-7227-12bb-f28e-39bfcd86349c' \
+  -d '{
+   "name":"Categoria6"
+}'
+9. Atualizar category - curl -X PUT \
+  https://challegejr-backend.herokuapp.com/api/v1/categories/2 \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'postman-token: c7e67287-a1ff-1d07-b611-44f13838aae1' \
+  -d '{
+   "name":"CategoriaAtualizada2"
+}'
+10. Deletar category - curl -X DELETE \
+  https://challegejr-backend.herokuapp.com/api/v1/categories/7 \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'postman-token: 578268e0-d050-48b7-680e-cd4c30a049c3' \
+  -d '{
+   "name":"Categoria7"
+}'
 
-**Lembrando que a sessão extra dentro de cada desafio não é obrigátorio**, são apenas idéias de ferramentas e recursos que você pode implementar ou não. Mas é claro que se implementar esses extras, avaliaremos com carinho! 😀
+### Listagem dos Filtros
 
-# Vagas
-Aqui temos 3 tipos de trabalho: **Estágiario**, **Desenvolvedor Full Stack Web**, **Desenvolvedor Full Stack Mobile**.
+1. Listar category_id - curl -X GET \
+  'https://challegejr-backend.herokuapp.com/api/v1/posts?category_id=2' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'postman-token: 80da0397-f7ec-c6f2-9674-0200711eb440' \
+  -d '{
+   "name":"Categoria7"
+}'
 
-## Estágio
+2. Listar category_name - curl -X GET \
+  'https://challegejr-backend.herokuapp.com/api/v1/posts?category_name=categoriaat' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'postman-token: 501f1515-df3a-e50b-78e9-440107fb29af' \
+  -d '{
+   "name":"Categoria7"
+}'
 
-### Descrição
-Ser apaixonado por desenvolvimento e aprendizado. Aqui na ez você ira passar por vários projetos incríveis e com grandes desafios. 
 
-Sempre com um mentor que irá te auxiliar no seu crescimento, mirando entregas de projetos com alta qualidade, nesse momento você já passa pelo nosso processo de code review, onde alem do mentor existirão dicas de outras pessoas desenvolvedoras da empresa.
+3. Listar data/hora, retorna valores antes da data/hora que foi buscada - curl -X GET \
+  'https://challegejr-backend.herokuapp.com/api/v1/posts?posted_after=2021-03-10%2005%3A37%24' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'postman-token: fec738d2-babd-9506-b8fe-e9bc664cf24a' \
+  -d '{
+   "name":"Categoria7"
+}'
 
-### Aqui você vai encontrar nosso desafio para vaga de [Estágio](./internship/challenge.md)
+4. Listar data/hora, retorna valores depois da data/hora que foi buscada - curl -X GET \
+  'https://challegejr-backend.herokuapp.com/api/v1/posts?posted_before=2021-03-11%2005%3A37%24' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'postman-token: ec2c2d81-ece4-2627-6664-a678fba4255e' \
+  -d '{
+   "name":"Categoria7"
+}'
 
-## Desenvolvedor Full Stack
+5. Listar data/hora, retorna valores que estariam entre as datas que foram inseridas - curl -X GET \
+  'https://challegejr-backend.herokuapp.com/api/v1/posts?posted_before=2021-03-11%2006%3A31%3A52&posted_after=2021-03-05%2006%3A31%3A52' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'postman-token: 031e0d64-e4fd-9927-72ab-1befb2f0ad59' \
+  -d '{
+   "name":"Categoria7"
+}'
 
-### Descrição
-Ser apaixonado por desenvolvimento e muito aprendizado, acreditamos que isso nunca acaba na vida de um desenvolvedor. Aqui na ez você ira participar de projetos incríveis, com grandes desafios.
 
-Você será responsável por tudo que envolve um projeto (Back-end, Front-end), aqui temos um time de staff com DevOps, Teste, Agile Coach, que ira auxiliar você nessas práticas no dia a dia do projeto.
 
-### Aqui você vai encontrar nossos desafios.
-[Full Stack Web - Júnior](./fullstack-web/challenge-jr.md)
 
-[Full Stack Web - Pleno/Senior](./fullstack-web/challenge-pl-sr.md)
 
-[Full Stack Mobile - Júnior](./fullstack-mobile/challenge-jr.md)
 
-[Full Stack Mobile - Pleno/Senior](./fullstack-mobile/challenge-pl-sr.md)
+
+
+
+
+
+
+
+
+
