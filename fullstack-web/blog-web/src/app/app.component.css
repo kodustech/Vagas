@@ -1,0 +1,10 @@
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+main{
+    margin-left: 60px;
+    padding: 10px;
+    color: var(--text-black);
+}

@@ -1,0 +1,21 @@
+:root{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    --text-primary: #1c304e;
+    --text-secondary: #ffff;
+    --text-black: #000000;
+    --bg-primary: #ffff;
+    --bg-secondary: #1c304e;
+}
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    background-color: white;
+}
+
+
+body::-webkit-scrollbar{
+    width: 0.25rem;
+}
