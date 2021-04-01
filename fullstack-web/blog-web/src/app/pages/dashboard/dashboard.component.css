@@ -10,10 +10,10 @@
 }
 
 .posts{
-    width: 80%;
-    height: 100%;
     display: grid;
     grid-template-columns: repeat(3, 400px);
+    grid-gap: 15px;
+    padding: 15px;
 }
 
 .message{
