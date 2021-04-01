@@ -1,0 +1,9 @@
+<div class="item-list">
+    <img src="../../../assets/images/card-background.jpg" alt="">
+    <div class="name">{{postItem.name}}</div>
+    <div class="description">{{postItem.description}}</div>
+    <div class="icons">
+        <fa-icon routerLink="/register/{{postItem.id}}" class="item-icon" [icon]="icons.faPen" size="xs"></fa-icon>
+        <fa-icon routerLink="/list" (click)="deletePost(postItem.id)" class="item-icon" [icon]="icons.faTrash" size="xs"></fa-icon>
+    </div>
+</div>

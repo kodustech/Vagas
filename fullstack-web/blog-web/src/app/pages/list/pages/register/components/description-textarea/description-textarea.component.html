@@ -1,0 +1,5 @@
+<div class="form-group">
+    <label for="description-textarea">Descrição</label>
+    <textarea id="description-textarea" [(ngModel)]="descriptionPost" (ngModelChange)="descriptionPostChange.emit(descriptionPost)" type="text" rows="2" cols="60">
+    </textarea>
+</div>

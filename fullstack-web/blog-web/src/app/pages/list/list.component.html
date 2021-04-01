@@ -1,0 +1,11 @@
+<h2>Lista de Posts</h2>
+<div class="content-posts">
+    <app-new-button></app-new-button>
+    <div class="message" *ngIf="posts.length == 0">
+        <app-alert-text></app-alert-text>
+    </div>
+    <div *ngFor="let post of posts;  let i = index">
+        <app-item-list [(postItem)] = "posts[i]" (postRemoved)="refreshList()"></app-item-list>
+    </div>
+    
+</div>

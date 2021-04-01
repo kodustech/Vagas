@@ -1,0 +1,21 @@
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+#save-button{
+    width: 100%;
+    max-width: 200px;
+    height: 35px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    background: var(--bg-secondary);
+}
+
+#save-button:hover{
+    border-width: 2px;
+    background: var(--bg-green);
+}

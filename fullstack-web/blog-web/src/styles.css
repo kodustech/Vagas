@@ -21,3 +21,22 @@ html, body{
 body::-webkit-scrollbar{
     width: 0.25rem;
 }
+
+
+@media only screen and (max-width: 600px){
+    .home{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home .content{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .home .content main{
+        width: 100%;
+        margin: 2px;
+        padding: 2px;
+    }
+}

@@ -44,3 +44,10 @@
 .navbar .navbar-nav .nav-item:hover{
     background-color: var(--text-green);
 }
+
+
+@media only screen and (max-width: 600px){
+    .navbar{
+        display: none;
+    }
+}

@@ -1,0 +1,19 @@
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+#datetime-input{
+    width: 100%;
+    max-width: 200px;
+    height: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    font-size: 14px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 1px #b4b3b3;
+}

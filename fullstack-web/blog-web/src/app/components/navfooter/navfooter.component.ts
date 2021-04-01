@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import * as Icons from "../../../assets/icons";
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  selector: 'app-navfooter',
+  templateUrl: './navfooter.component.html',
+  styleUrls: ['./navfooter.component.css']
 })
-export class HeaderComponent implements OnInit {
+export class NavfooterComponent implements OnInit {
 
   icons = Icons
 

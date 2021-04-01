@@ -1,0 +1,33 @@
+.content-form {
+    display: flex;
+    justify-content: center;
+}
+
+.form-register {
+    width: 100%;
+    max-width: 500px;
+    margin-right: 100px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-register .header {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.form-register .footer {
+    margin-top: 15px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .form-register {
+        padding: 20px !important;
+        margin-right: 10px !important;
+        margin-bottom: 100px;
+    }
+}

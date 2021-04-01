@@ -25,7 +25,7 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/_assets/style/layout-page.css"
+              "src/assets/style/layout-page.css"
             ],
             "scripts": []
           },
@@ -89,7 +89,7 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/_assets/style/layout-page.css"
+              "src/assets/style/layout-page.css"
             ],
             "scripts": []
           }
