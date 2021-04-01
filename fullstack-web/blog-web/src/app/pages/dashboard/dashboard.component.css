@@ -1,0 +1,28 @@
+.filter{
+    margin-right: 10px;
+}
+
+#standard-select {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 5px;
+    border: 1px solid var(--text-primary);
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: #fff;
+}
+
+#datetime-input{
+    max-width: 300px;
+    margin-top: 5px;
+    border: 1px solid var(--text-primary);
+    border-radius: 5px;
+    padding: 3px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: #fff;
+}

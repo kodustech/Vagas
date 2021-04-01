@@ -3,9 +3,11 @@
     font-family: 'Open Sans', sans-serif;
     --text-primary: #1c304e;
     --text-secondary: #ffff;
+    --text-green: #02a775;
     --text-black: #000000;
     --bg-primary: #ffff;
     --bg-secondary: #1c304e;
+    --bg-green: #02a775;
 }
 
 html, body{

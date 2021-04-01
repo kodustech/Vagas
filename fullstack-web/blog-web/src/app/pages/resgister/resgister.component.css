@@ -1,0 +1,10 @@
+.form-register{
+    width: 100%;
+    max-width: 500px;
+    padding: 40px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+}

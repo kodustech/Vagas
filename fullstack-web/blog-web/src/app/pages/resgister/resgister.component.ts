@@ -12,4 +12,8 @@ export class ResgisterComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  teste(){
+    alert("alerta")
+  }
+
 }
