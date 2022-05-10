@@ -1,0 +1,135 @@
+/*BACKGROUND PRIMARIO*/
+/*-----------------------------------------------------*/
+.uk-background-primary{
+    background-color: #e70004;
+}
+
+/*BOTÃO TIPO DANGER*/
+/*-------------------------------------------------------*/
+.uk-button-danger {
+    background-color: #e70004;
+    color: #fff;
+    border: 1px solid transparent;
+}
+/* Hover + Focus */
+.uk-button-danger:hover {
+    background-color: #f8313d;
+    color: #fff;
+}
+.uk-button-danger:focus {
+    background-color: #e70004;
+    color: #fff;
+}
+/* OnClick + Active */
+.uk-button-danger:active,
+.uk-button-danger.uk-active {
+    background-color: #a10004;
+    color: #fff;
+}
+.uk-overlay-primary {
+    background: rgba(158, 11, 0, 0.8);
+}
+
+
+
+/*ICONES*/
+/*-----------------------------------------------------*/
+.uk-icon{
+    color: red;
+}
+
+.uk-close {
+    color: #000000;
+    transition: 0.1s ease-in-out;
+    transition-property: color, opacity;
+}
+/* Hover + Focus */
+.uk-close:hover,
+.uk-close:focus {
+    color: #a10004;
+    outline: none;
+}
+
+
+
+/*ALTURA DOS CONTAINERS*/
+/*----------------------------------------------------------*/
+.uk-height-xsmall {
+    height: 40px;
+}
+.uk-height-small {
+    height: 93px;
+}
+
+.uk-height-medium {
+    height: 150px;
+}
+
+.height-comic{
+    height: 250px;
+}
+
+
+/*MARGENS DO GRID*/
+/*----------------------------------------------------------*/
+.uk-grid-small {
+    margin-left: -3px;
+}
+.uk-grid-small > * {
+    padding-left: 3px;
+}
+/* Vertical */
+.uk-grid + .uk-grid-small,
+.uk-grid-small > .uk-grid-margin,
+* + .uk-grid-margin-small {
+    margin-top: 3px;
+}
+
+
+
+/*CARD DEFAULT
+-----------------------------------------------------------*/
+.uk-card-default {
+    background: rgba(28, 27, 35, 0.95);
+    color: #666;
+    box-shadow: 0 5px 15px rgb(28, 27, 35);
+}
+.uk-card-default .uk-card-title {
+    color: #333;
+}
+.uk-card-default.uk-card-hover:hover {
+    background-color: #fff;
+    box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
+}
+.uk-card-default .uk-card-header {
+    border-bottom: 1px solid #e5e5e5;
+}
+.uk-card-default .uk-card-footer {
+    border-top: 1px solid #e5e5e5;
+}
+
+
+/*TEXTO
+----------------------------------------------------------*/
+.uk-text-danger {
+    color: rgba(233, 0, 2, 0.86) !important;
+}
+
+/*-----ANIMAÇÕES VUE-------------*/
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to  {
+    opacity: 0;
+}
+
+.slide-fade-enter-active {
+    transition: all .6s ease;
+}
+.slide-fade-leave-active {
+    transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to {
+    transform: translateY(20px);
+    opacity: 0;
+}
