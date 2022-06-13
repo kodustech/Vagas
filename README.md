@@ -6,40 +6,40 @@
   <br />
 </div>
 
-# Oportunidades abertas
-
-Confira vagas e carreiras neste [repositório](https://github.com/ezDevs/vagas-ez/issues).
-
-<br />
 
 # Quem somos
 
-A EZ é uma empresa que tem o objetivo de transformar negócios através de **pessoas, cultura e tecnologia**. A gente acredita que esses motores são capazes de mudar o rumo de organizações inteiras. 
+<i>Criada por devs e feita para devs</i>
 
-Então para fazer esse objetivo acontecer, nós temos a missão de conectar talentos de tecnologia a Startups e Scale-ups. Para isso construímos **o primeiro marketplace gerenciado de talentos tech full time do Brasil**.
+🚀 Nós estamos construindo a infraestrutura para ajudar talentos de tecnologia atingirem carreiras de alto crescimento.
 
-Conheça um pouco mais sobre nós visitando [nosso site](https://talentos.ezdevs.com.br/?utm_source=github&ref=g_git) 😉 
+<div align="center">
+	<br />
+	<a href="https://www.youtube.com/watch?v=f2nZ_k4OOdQ">
+	<img src="https://user-images.githubusercontent.com/62026908/172405194-c735b7f8-54e9-4758-8c8b-1dc50eed9266.png" alt="Vídeo Manisfesto Ez Devs" width="500" />
+	</a>
+	<br />
+  <br />
+</div>
+
+Doc do Manifesto completo [aqui](https://manifesto.ezdevs.com/).
+
+Conheça um pouco mais sobre nossa plataforma visitando [nosso site](https://talents.ezdevs.com/?utm_source=github&ref=g_git)
 
 <br />
 
 # O Ecossistema EZ
 
-O mercado de tecnologia está super aquecido e surgem vagas todos os dias. Então, você, dev, recebe algumas mensagens por semana, faz entrevistas, testes técnicos e mais um tanto de avaliações comportamentais.
+O ecossistema para que você tenha sucesso no seu trabalho atual ─ e no próximo.
 
-Mas, no fim, o quanto dessas informações serão úteis para outras empresas? 
+Na EZ você acessa:
+- Oportunidades de carreira em boas empresas
+- Comunidade exclusiva para aprimorar skills essencias para seu desenvolvimento.
 
-E se a empresa não estiver alinhada com suas expectativas? Se falta propósito e uma cultura forte? Você precisa começar tudo de novo.  
-
-Em nosso ecossistema EZ, **você só precisa fazer 1 vez**. 
-
-Após o cadastro na plataforma, que contempla a construção do seu perfil profissional e objetivos de carreira, e de realizar um **processo enxuto, com apenas 3 etapas**, você fica disponível para atuar em *startups* e *scale-ups* da nossa comunidade. 
-
-E se for para outra empresa, não precisa refazer nenhum teste.
+Chega de incontáveis plataformas de processo seletivo e de comunidades feitas apenas de conteúdos jogados para criar algum tipo de engajamento ou marketing.
 
 
-<br />
-
-## Você no centro
+## Você no comando de sua carreira
 
 Fugimos do recrutamento tradicional e colocamos você no centro da relação de trabalho. 
 
@@ -49,60 +49,73 @@ Para isso, somos muito criteriosos com as empresas que fazem parte do nosso ecos
 
 Além disso, acompanhamos seu desenvolvimento, em uma relação de aliança, para te ajudar a alcançar o melhor para sua carreira, nos seus desafios pessoais e técnicos.
 
-Mas não acredite só em nossa palavra, confira os depoimentos de desenvolvedores e outros profissionais deixados em nosso **[Glassdoor](https://www.glassdoor.com.br/Vis%C3%A3o-geral/Trabalhar-na-Ez-devs-EI_IE2784896.13,20.htm)**.
+Não acredite só em nossa palavra, confira os depoimentos de desenvolvedores e outros profissionais deixados em nosso **[Glassdoor](https://www.glassdoor.com.br/Vis%C3%A3o-geral/Trabalhar-na-Ez-devs-EI_IE2784896.13,20.htm)**.
+
+
+### Por que tentar se encaixar no convencional quando você pode ter bem mais?
+
+🌎 Trabalho 100% remoto na EZ.devs. <br />
+😎 Flexibilidade para trocar de empresa usando o mesmo processo seletivo <br />
+👩🏽‍💻 Acompanhamento de carreira com o Talent Success da EZ <br />
+
+### Oportunidades baseadas na sua atuação
+
+- [Front-end](https://github.com/ezDevs/vagas-ez/issues/19) <br />
+- [Back-end](https://github.com/ezDevs/vagas-ez/issues/18) <br />
+- [Full-Stack](https://github.com/ezDevs/vagas-ez/issues/20) <br />
+
+### Algumas das tecnologias que utilizamos
+
+JavaScript, React, React Native, Node.js, Vue.js, Angular, C#, .NET.
+
+### 💰 Sem salário confidencial por aqui!
+Chega dessa história de descobrir só lá na frente o quanto você vai receber. 
+
+Veja agora nossas faixas salariais de acordo com seu nível de senioridade [aqui](https://talents.ezdevs.com/carreira/salarios/?ref=g_git).
+
+
+## EZ.community
+
+Um espaço onde devs podem aprimorar suas habilidades e desenvolver sua carreira com o apoio da comunidade.
+
+Tire suas dúvidas, peça recomendações e feedbacks e ajude a co-criar o futuro do mercado para devs.
+
+Além de aulas de inglês disponíveis toda semana, fazemos rodas de conversa sobre tópicos de desenvolvimento com nosso CEO e CTO. 
 
 <br />
 
-## Por que fazer parte?
 
-👩🏽‍💻 **Projetos desafiadores**
-<br />
-Trabalhe em produtos que trabalham com tecnologias em ascensão. Afinal, são negócios que estão mudando o mundo e precisam de todo o seu potencial para ajudá-los.
+# É fácil começar
 
-🌎 **Trabalho Remoto**
-<br />
-Ou seja, trabalhe de qualquer lugar do mundo! Pode ser da praia, da casa de campo, da Europa. De onde você quiser. O importante é estar online na hora da daily.
-
-😎 **Qualidade de vida**
-<br />
-Você vive para trabalhar ou trabalha para viver? Aqui não queremos que você faça nenhum dos dois. Work Life balance é essencial. E não é só da boca pra fora.
-
-😍 **Ambiente de trabalho incrível**
-<br />
-Passamos um terço da nossa vida no trabalho, nada mais juntos que encontrar um lugar que te deixe feliz. Aqui você vai poder conversar sobre lolzinho, cs, futebol. Queremos você na sua essência.
-
-💰 **Boa Remuneração**
-<br />
-Altos projetos, altos dinheiros. Aqui a remuneração faz jus aos desafios do dia a dia.
-
-
-<br />
-
-# Algumas das tecnologias que utilizamos
-
-JavaScript, React, React Native, Node.js, Vue.js, Angular.
-
-# Vamos nessa?
-
-Cadastre-se em nosso ecossistema por [esse link](https://app.ezdevs.com.br/cadastro?utm_source=github&ref=g_git) agora mesmo! 
+Cadastre-se em nosso ecossistema por [esse link](https://app.ezdevs.com.br/cadastro?utm_source=github&ref=g_git). 
 
 <div align="center">
 	<br />
   <br />
-  <p><b>Venha fazer parte do ecossistema que liga você a empresas que estão transformando o mundo.</b></p><br>
+  <p><b>Liberte todo o poder que VOCÊ deveria ter nas relações de trabalho</b></p><br>
 	<img src="https://media-exp3.licdn.com/dms/image/C561BAQH2IqoObjNYUQ/company-background_10000/0/1579711492253?e=2159024400&v=beta&t=KYqP8Sr1QAUQRWHyvQO-2nXpZbZB8MFh-9LQ4erh0iw" alt="Vem para EZ"/>
 	<br />
 </div>
 
 <br /><br />
 
+## Vamos construir juntos
+Quer saber o que estamos fazendo para mudar o futuro? Dá uma olhadinha no nosso Roadmap!
+
+https://github.com/orgs/ezDevs/projects/1
+
+Deixamos ele público para que você possa ver nossas iniciativas e o mais importante: contribuir.
+
+Pensou em algo legal?
+Temos um espaço exclusivo lá para suas ideias, é só colocar lá e vamos olhar com carinho. 💙
+
+
 ### Nos encontre: 
 
 [Canal no Youtube](https://youtube.com.br/ezdevs). Conteúdos novos sobre tecnologia e carreira toda semana. 
 
-[EZ.Heroes](https://discord.com/invite/vz6EPh4). Nossa rede de networking de tecnologia no Discord.
-
 Nossas redes. [Linkedin](https://www.linkedin.com/company/ez-devs). [Instagram](https://instagram.com/ez.devs). [Facebook](https://facebook.com/ezdevs).
+
 
 
 ### Aqui você vai encontrar nossos desafios.
