@@ -1,0 +1,23 @@
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+#new-button{
+    width: 100%;
+    position: absolute;
+    right: 20px;
+    max-width: 200px;
+    height: 35px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    background: var(--bg-secondary);
+}
+
+#new-button:hover{
+    border-width: 2px;
+    background: var(--bg-green);
+}

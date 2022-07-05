@@ -1,0 +1,15 @@
+<h2>Dashboard</h2>
+<div class="content-dashboard">
+    <app-datatime-input [(dateTime)]="dateTime" (dateTimeChange)="filterDateTime()"></app-datatime-input>
+    <app-category-select [(categoryPost)]="category" (categoryPostChange)="filterCategory(category)" ></app-category-select>
+</div>
+<div class="message" *ngIf="posts.length == 0">
+    <app-alert-text></app-alert-text>
+</div>
+<div class="align-posts">
+    <div class="posts">
+        <div *ngFor="let post of posts;  let i = index">
+            <app-card [(postCard)]="posts[i]"></app-card>
+        </div>
+    </div>
+</div>

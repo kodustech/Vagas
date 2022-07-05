@@ -1,0 +1,16 @@
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+#description-textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    font-size: 18px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 1px #b4b3b3;
+}

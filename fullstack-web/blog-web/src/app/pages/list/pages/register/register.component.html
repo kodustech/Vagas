@@ -1,0 +1,16 @@
+<h2>Cadastros</h2>
+<div class="content-form">
+    <div class="form-register">
+        <div class="header">
+            <h4 *ngIf="!isEdit">Novo post</h4>
+            <h4 *ngIf="isEdit">Editar</h4>
+        </div>
+        <app-name-input [(namePost)]="post.name"></app-name-input>
+        <app-description-textarea [(descriptionPost)]="post.description"></app-description-textarea>
+        <app-abstract-textarea [(abstractPost)]="post.abstract"></app-abstract-textarea>
+        <app-category-select [(categoryPost)]="post.category"></app-category-select>
+        <div class="footer">
+            <app-save-button (saveEvent)="savePost()" routerLink="/list"></app-save-button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,33 @@
+.content-dashboard{
+    display: flex;
+    flex-direction: row;
+}
+
+.align-posts{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.posts{
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-gap: 15px;
+    padding: 15px;
+}
+
+.message{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+    .posts{
+        grid-template-columns: repeat(1, 400px) !important;
+    }
+
+    .content-dashboard{
+        display: flex;
+        flex-direction: column;
+    }
+}
