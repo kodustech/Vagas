@@ -9,100 +9,117 @@
 
 # Quem somos
 
-<i>Criada por devs e feita para devs</i>
+A plataforma para que você tenha sucesso no seu trabalho atual ─ _e no próximo_.
 
-🚀 Nós estamos construindo a infraestrutura para ajudar talentos de tecnologia atingirem carreiras de alto crescimento.
+Criada por e para devs, a [EZ.devs](https://talents.ezdevs.com/?ref=g_git&utm_source=github) é um impulsionador de carreiras para desenvolvedores. Aqui você encontra:
+- [Oportunidades](https://talents.ezdevs.com/carreira/?ref=g_git&utm_source=github) alinhadas aos seus objetivos;
+- Uma [comunidade exclusiva](https://talents.ezdevs.com/comunidade/?ref=g_git&utm_source=github) para aprimorar skills e criar networking;
+- Conteúdos curados para seu desenvolvimento profissional;
 
-<div align="center">
-	<br />
-	<a href="https://www.youtube.com/watch?v=f2nZ_k4OOdQ">
-	<img src="https://user-images.githubusercontent.com/62026908/172405194-c735b7f8-54e9-4758-8c8b-1dc50eed9266.png" alt="Vídeo Manisfesto Ez Devs" width="500" />
-	</a>
-	<br />
-  <br />
-</div>
+De maneira gratuita e colaborativa, torne-se um profissional qualificado e requisitado no mercado enquanto promove a [mudança das relações de trabalho](https://manifesto.ezdevs.com/).
 
-Doc do Manifesto completo [aqui](https://manifesto.ezdevs.com/).
+# Detalhes das vagas
 
-Conheça um pouco mais sobre nossa plataforma visitando [nosso site](https://talents.ezdevs.com/?utm_source=github&ref=g_git)
+## O que você encontra em todas as oportunidades 🚀
+- Vagas 100% remotas;
+- Um Talent Success que te acompanhará em seu início na empresa;
+- Gympass;
+- Aulas de inglês;
+- Auxílio psicólogo;
+- Contratação PJ nos primeiros 6 meses;
+- Salários que vão de R$ 6K a R$ 12K (Pleno) e R$ 10K a 19,2K (Sênior);
 
-<br />
+## O que você precisa ter 🧑‍🚀
+- 2.5 anos de experiência como desenvolvedor;
+- Experiência com linguagens e frameworks da área escolhida;
+- Experiência com ferramentas de versionamento de código;
+- Habilidades interpessoais de escrita e de comunicação verbal;
+- Proatividade na busca de soluções e novas formas de desenvolvimento;
+- Ter trabalhado com metodologia ágil / scrum / kanban;
+- Pessoa auto gerenciável, que busca conhecimento e seja resolutivo nos problemas.
 
-# O Ecossistema EZ
+# Nosso processo de contratação
 
-O ecossistema para que você tenha sucesso no seu trabalho atual ─ e no próximo.
+> "Faça 1 processo seletivo para 30 vagas
+>  ao invés de 30 processos seletivos para 10 vagas"
 
-Na EZ você acessa:
-- Oportunidades de carreira em boas empresas
-- Comunidade exclusiva para aprimorar skills essencias para seu desenvolvimento.
+Nosso processo seletivo é feito uma única vez quando você se cadastra na plataforma e pode ser reutilizado para todas as oportunidades que temos. Consiste nessas fases:
 
-Chega de incontáveis plataformas de processo seletivo e de comunidades feitas apenas de conteúdos jogados para criar algum tipo de engajamento ou marketing.
+- **Cadastro**
 
+Faça seu cadastro por [aqui](https://app.ezdevs.com.br/cadastro/?ref=g_git&utm_source=github). Você também pode preencher com seu LinkedIn ou Google! Basta colocar as informações que são pedidas e selecionar a carreira em que deseja trabalhar.
 
-## Você no comando de sua carreira
+- **Quiz**
 
-Fugimos do recrutamento tradicional e colocamos você no centro da relação de trabalho. 
+Esse quiz é um mapeamento que fazemos do seu perfil para poder entender melhor suas necessidades e objetivos. Com as respostas, conseguimos traçar com precisão as oportunidades para você e entregar algumas coisas que podem te ajudar a evoluir.
 
-Queremos te proporcionar experiências enriquecedoras e a rampar sua carreira. 
+- **Entrevista**
 
-Para isso, somos muito criteriosos com as empresas que fazem parte do nosso ecossistema. Buscamos aquelas que prezam pela mesma cultura de **liberdade, bons desafios técnicos e diversidade**.
+Você terá uma breve conversa com um tech recruiter para conversar sobre alguns aspectos que variam de pessoa pra pessoa e que seriam complicados de manter a assertividade com um quiz.
 
-Além disso, acompanhamos seu desenvolvimento, em uma relação de aliança, para te ajudar a alcançar o melhor para sua carreira, nos seus desafios pessoais e técnicos.
+- **Teste Técnico**
 
-Não acredite só em nossa palavra, confira os depoimentos de desenvolvedores e outros profissionais deixados em nosso **[Glassdoor](https://www.glassdoor.com.br/Vis%C3%A3o-geral/Trabalhar-na-Ez-devs-EI_IE2784896.13,20.htm)**.
+Para validarmos seu conhecimento, temos alguns testes desenvolvidos pela nossa staff onde você coloca suas habilidades técnicas à prova. Essa é a última etapa!
 
+- **Match!**
 
-### Por que tentar se encaixar no convencional quando você pode ter bem mais?
-
-🌎 Trabalho 100% remoto na EZ.devs. <br />
-😎 Flexibilidade para trocar de empresa usando o mesmo processo seletivo <br />
-👩🏽‍💻 Acompanhamento de carreira com o Talent Success da EZ <br />
-
-### Oportunidades baseadas na sua atuação
-
-- [Front-end](https://github.com/ezDevs/vagas-ez/issues/19) <br />
-- [Back-end](https://github.com/ezDevs/vagas-ez/issues/18) <br />
-- [Full-Stack](https://github.com/ezDevs/vagas-ez/issues/20) <br />
-
-### Algumas das tecnologias que utilizamos
-
-JavaScript, React, React Native, Node.js, Vue.js, Angular, C#, .NET.
-
-### 💰 Sem salário confidencial por aqui!
-Chega dessa história de descobrir só lá na frente o quanto você vai receber. 
-
-Veja agora nossas faixas salariais de acordo com seu nível de senioridade [aqui](https://talents.ezdevs.com/carreira/salarios/?ref=g_git).
+Assim que você é aprovado no teste técnico, podemos começar a te relacionar para oportunidades. Quando encontramos alguma que faça sentido com tudo que você nos passou, acontece o match! Te conectamos com a empresa e vocês batem uma última conversa para entender se realmente você topa o desafio, a decisão é sua.
 
 
-## EZ.community
+# Vagas disponíveis
 
-Um espaço onde devs podem aprimorar suas habilidades e desenvolver sua carreira com o apoio da comunidade.
+## Por tecnologia
+- [Vagas Vue.js](https://talents.ezdevs.com/stack/vuejs/?ref=g_git&utm_source=github)
+- [Vagas Node.js](https://talents.ezdevs.com/stack/nodejs/?ref=g_git&utm_source=github)
+- [Vagas React.js](https://talents.ezdevs.com/stack/react/?ref=g_git&utm_source=github)
+- [Vagas Angular](https://talents.ezdevs.com/stack/angular/?ref=g_git&utm_source=github)
+- [Vagas .NET/C#](https://talents.ezdevs.com/stack/dotnet-csharp/?ref=g_git&utm_source=github)
+- [Vagas React Native](https://talents.ezdevs.com/stack/react-native/?ref=g_git&utm_source=github)
 
-Tire suas dúvidas, peça recomendações e feedbacks e ajude a co-criar o futuro do mercado para devs.
+## Por stack
 
-Além de aulas de inglês disponíveis toda semana, fazemos rodas de conversa sobre tópicos de desenvolvimento com nosso CEO e CTO. 
+### Pleno
+- [Vagas Full-Stack Pleno](https://talents.ezdevs.com/carreiras/full-stack-pleno/?ref=g_git&utm_source=github)
+- [Vagas Front-End Pleno](https://talents.ezdevs.com/carreiras/front-end-pleno/?ref=g_git&utm_source=github)
+- [Vagas Back-End Pleno](https://talents.ezdevs.com/carreiras/back-end-pleno/?ref=g_git&utm_source=github)
 
-<br />
+### Sênior
+- [Vagas Full-Stack Sênior](https://talents.ezdevs.com/carreiras/full-stack-senior/?ref=g_git&utm_source=github)
+- [Vagas Front-End Sênior](https://talents.ezdevs.com/carreiras/front-end-senior/?ref=g_git&utm_source=github)
+- [Vagas Back-End Sênior](https://talents.ezdevs.com/carreiras/back-end-senior/?ref=g_git&utm_source=github)
 
+## Algumas empresas que você pode trabalhar
+
+- [Vagas na Ahgora](https://talents.ezdevs.com/empresas/ahgora/?ref=g_git&utm_source=github)
+- [Vagas no Atlético Mineiro](https://talents.ezdevs.com/empresas/atletico-mineiro/?ref=g_git&utm_source=github)
+- [Vagas no Grupo SBF](https://talents.ezdevs.com/empresas/grupo-sbf/?ref=g_git&utm_source=github)
+- [Vagas na Kovi](https://talents.ezdevs.com/empresas/kovi/?ref=g_git&utm_source=github)
+- [Vagas na Linx/Stone](https://talents.ezdevs.com/empresas/linx-stone/?ref=g_git&utm_source=github)
+- [Vagas na Shopper](https://talents.ezdevs.com/empresas/shopper/?ref=g_git&utm_source=github)
+- [Vagas na Wiipo](https://talents.ezdevs.com/empresas/wiipo/?ref=g_git&utm_source=github)
+
+# Tem mais dúvidas?
+
+Acesse nosso [FAQ](https://talents.ezdevs.com/faq-documentacao/?ref=g_git&utm_source=github) ou mande sua dúvida aqui nos `issues` e responderemos assim que possível!
 
 # É fácil começar
 
-Cadastre-se em nosso ecossistema por [esse link](https://app.ezdevs.com.br/cadastro?utm_source=github&ref=g_git). 
+Cadastre-se em nosso ecossistema por [esse link](https://app.ezdevs.com.br/cadastro/?ref=g_git&utm_source=github).
 
 <div align="center">
 	<br />
   <br />
   <p><b>Liberte todo o poder que VOCÊ deveria ter nas relações de trabalho</b></p><br>
-	<img src="https://media-exp3.licdn.com/dms/image/C561BAQH2IqoObjNYUQ/company-background_10000/0/1579711492253?e=2159024400&v=beta&t=KYqP8Sr1QAUQRWHyvQO-2nXpZbZB8MFh-9LQ4erh0iw" alt="Vem para EZ"/>
+	<img src="https://media-exp3.licdn.com/dms/image/C561BAQH2IqoObjNYUQ/company-background_10000/0/1579711492253?e=2159024400&v=beta&t=KYqP8Sr1QAUQRWHyvQO-2nXpZbZB8MFh-9LQ4erh0iw" alt="Vem pra EZ"/>
 	<br />
 </div>
 
 <br /><br />
 
-## Vamos construir juntos
+# Vamos construir juntos
 Quer saber o que estamos fazendo para mudar o futuro? Dá uma olhadinha no nosso Roadmap!
 
-https://github.com/orgs/ezDevs/projects/1
+[![](https://img.shields.io/badge/github-nosso%20roadmap-blue)](https://github.com/orgs/ezDevs/projects/1)
 
 Deixamos ele público para que você possa ver nossas iniciativas e o mais importante: contribuir.
 
@@ -110,19 +127,9 @@ Pensou em algo legal?
 Temos um espaço exclusivo lá para suas ideias, é só colocar lá e vamos olhar com carinho. 💙
 
 
-### Nos encontre: 
+# Nos encontre: 
 
-[Canal no Youtube](https://youtube.com.br/ezdevs). Conteúdos novos sobre tecnologia e carreira toda semana. 
-
-Nossas redes. [Linkedin](https://www.linkedin.com/company/ez-devs). [Instagram](https://instagram.com/ez.devs). [Facebook](https://facebook.com/ezdevs).
-
-
-
-### Aqui você vai encontrar nossos desafios.
-[Full Stack Web - Júnior](./fullstack-web/challenge-jr.md)
-
-[Full Stack Web - Pleno/Senior](./fullstack-web/challenge-pl-sr.md)
-
-[Full Stack Mobile - Júnior](./fullstack-mobile/challenge-jr.md)
-
-[Full Stack Mobile - Pleno/Senior](./fullstack-mobile/challenge-pl-sr.md)
+- [Canal no Youtube](https://youtube.com.br/ezdevs)
+- [Linkedin](https://www.linkedin.com/company/ez-devs)
+- [Instagram](https://instagram.com/ez.devs)
+- [Facebook](https://facebook.com/ezdevs)
